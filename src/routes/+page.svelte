@@ -1,3 +1,11 @@
+<script lang="ts">
+  import { Illustration, Ellipse } from '$lib/zdog'
+</script>
+
+<Illustration element="svg" width={240} height={240}>
+  <Ellipse diameter={80} stroke={20} color="#636" />
+</Illustration>
+
 <h1>⌛</h1>
 <h2>coming soon...</h2>
 <a href="mailto:hey@carlos-aguilar.com">hey@carlos-aguilar.com</a>

@@ -10,7 +10,7 @@ import Polygon from './Polygon.svelte'
 import Rect from './Rect.svelte'
 import RoundedRect from './RoundedRect.svelte'
 import Shape from './Shape.svelte'
-import { rootCtx, parentCtx, mountNode } from './zdog'
+import { rootCtx, parentCtx, mount } from './zdog'
 import type { RootContext, ParentContext } from './zdog'
 
 export {
@@ -30,5 +30,5 @@ export {
   RootContext,
   parentCtx,
   ParentContext,
-  mountNode,
+  mount as mountNode,
 }
