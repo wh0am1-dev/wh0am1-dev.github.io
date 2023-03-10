@@ -1,4 +1,4 @@
-import { getContext, setContext } from 'svelte'
+import { getContext, setContext, onMount } from 'svelte'
 import type Zdog from 'zdog'
 
 /** Zdog primitive */
@@ -51,7 +51,7 @@ export const rootCtx = Symbol()
 /** Root node context */
 export interface RootContext {
   /** Root illustration */
-  scene: Zdog.Illustration
+  scene: Zdog.Anchor
   /** List of update functions */
   subscribers: Array<Subscription>
   /** Subscribe new update function */
@@ -63,28 +63,22 @@ export const parentCtx = Symbol()
 /** Parent node context */
 export type ParentContext = Primitive
 
-/** Node cleanup function */
-type DismountNode = () => void
-/** Mount node function */
-type MountNode = (
-  /** Primitive of the node */
-  primitive: PrimitiveClass,
-  /** Primitive options */
-  options: Options
-) => DismountNode
-
-export const mountNode: MountNode = (primitive, options) => {
+/** Mount Zdog primitive into the tree */
+export const mount = (primitive: PrimitiveClass, options: Options) => {
   const { scene } = getContext<RootContext>(rootCtx)
   const parent = getContext<ParentContext>(parentCtx)
   const node = new primitive({ ...options })
 
   setContext<ParentContext>(parentCtx, node)
-  parent.addChild(node)
-  scene.updateGraph()
 
-  return () => {
-    parent.removeChild(node)
-    parent.updateGraph()
+  onMount(() => {
+    parent.addChild(node)
     scene.updateGraph()
-  }
+
+    return () => {
+      parent.removeChild(node)
+      parent.updateGraph()
+      scene.updateGraph()
+    }
+  })
 }

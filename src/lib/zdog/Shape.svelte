@@ -1,9 +1,8 @@
 <script lang="ts">
-  import { onMount } from 'svelte'
   import Zdog from 'zdog'
-  import { mountNode } from './zdog'
+  import { mount } from './zdog'
   interface $$Props extends Zdog.ShapeOptions {}
-  onMount(mountNode(Zdog.Shape, $$props))
+  mount(Zdog.Shape, $$props)
 </script>
 
 <slot />

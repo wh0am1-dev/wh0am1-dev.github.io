@@ -1,16 +1,8 @@
 <script lang="ts">
-  import { onMount } from 'svelte'
   import Zdog from 'zdog'
-  import { mountNode } from './zdog'
-
+  import { mount } from './zdog'
   interface $$Props extends Zdog.AnchorOptions {}
-
-  onMount(() => {
-    const dismountNode = mountNode(Zdog.Anchor, $$props)
-    return () => {
-      dismountNode()
-    }
-  })
+  mount(Zdog.Anchor, $$props)
 </script>
 
 <slot />
