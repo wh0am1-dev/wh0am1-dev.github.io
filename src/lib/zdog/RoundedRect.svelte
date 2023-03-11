@@ -1,8 +1,8 @@
 <script lang="ts">
   import Zdog from 'zdog'
-  import { mount } from './zdog'
-  interface $$Props extends Zdog.RoundedRectOptions {}
-  mount(Zdog.RoundedRect, $$props)
+  import { mount, type PrimitiveProps } from '.'
+  interface $$Props extends PrimitiveProps<Zdog.RoundedRect> {}
+  export const node = mount(Zdog.RoundedRect, $$props)
 </script>
 
 <slot />

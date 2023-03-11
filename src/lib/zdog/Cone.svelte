@@ -1,8 +1,8 @@
 <script lang="ts">
   import Zdog from 'zdog'
-  import { mount } from './zdog'
-  interface $$Props extends Zdog.ConeOptions {}
-  mount(Zdog.Cone, $$props)
+  import { mount, type PrimitiveProps } from '.'
+  interface $$Props extends PrimitiveProps<Zdog.Cone> {}
+  export const node = mount(Zdog.Cone, $$props)
 </script>
 
 <slot />
