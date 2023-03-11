@@ -1,45 +1,73 @@
 <script lang="ts">
-  import { setContext, onMount } from 'svelte'
+  import { onMount } from 'svelte'
   import Zdog from 'zdog'
-  import { rootCtx, parentCtx } from './zdog'
-  import type { RootContext, ParentContext } from './zdog'
+  import {
+    setZdog,
+    setParent,
+    type ZdogContext,
+    type Subscriber,
+    type Destructor,
+  } from '.'
 
   interface $$Props extends Omit<Zdog.IllustrationOptions, 'element'> {
     /** Render to SVG or canvas */
-    element: 'svg' | 'canvas'
+    element?: 'svg' | 'canvas'
+    /** Update loop subscription*/
+    update?: Subscriber<Zdog.Anchor>
     /** Illustration width */
     width: number
     /** Illustration height */
     height: number
   }
 
-  export let element: 'svg' | 'canvas' = 'svg'
+  export let element: 'svg' | 'canvas' = 'canvas'
+  export let update: Subscriber<Zdog.Anchor> | undefined = undefined
   export let width: number
   export let height: number
 
   let canvas: SVGSVGElement | HTMLCanvasElement
-  const rootContext: RootContext = {
+  const ctx: ZdogContext = {
     scene: new Zdog.Anchor(),
     subscribers: [],
     subscribe: fn => {
-      rootContext.subscribers.push(fn)
-      return () => rootContext.subscribers.filter(sub => sub !== fn)
+      ctx.subscribers.push(fn)
+      return () => (ctx.subscribers = ctx.subscribers.filter(sub => sub !== fn))
     },
   }
 
-  setContext<ParentContext>(parentCtx, rootContext.scene)
-  setContext<RootContext>(rootCtx, rootContext)
+  setZdog(ctx)
+  setParent(ctx.scene)
 
   onMount(() => {
     const illu = new Zdog.Illustration({
       ...$$restProps,
       element: canvas,
     })
+    illu.addChild(ctx.scene)
+    illu.updateGraph()
 
-    illu.addChild(rootContext.scene)
-    illu.updateRenderGraph()
+    let unsubscribe: Destructor
+    if (update) unsubscribe = ctx.subscribe(update(ctx.scene))
+
+    let frame: number
+    const render = (ms = 0) => {
+      ctx.subscribers.forEach(fn => fn(ms))
+      illu.updateRenderGraph()
+      frame = requestAnimationFrame(render)
+    }
+    render()
+
+    return () => {
+      unsubscribe?.()
+      cancelAnimationFrame(frame)
+    }
   })
 </script>
 
-<svelte:element this={element} bind:this={canvas} {width} {height} />
+{#if element === 'canvas'}
+  <canvas bind:this={canvas} {width} {height} />
+{:else if element === 'svg'}
+  <svg bind:this={canvas} {width} {height} />
+{/if}
+
 <slot />
