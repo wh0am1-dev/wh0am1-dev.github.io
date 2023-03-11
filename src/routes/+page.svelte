@@ -1,16 +1,15 @@
-<script lang="ts">
-  import { Illustration, Ellipse } from '$lib/zdog'
-</script>
-
-<Illustration element="svg" width={240} height={240}>
-  <Ellipse diameter={80} stroke={20} color="#636" />
-</Illustration>
-
-<h1>⌛</h1>
-<h2>coming soon...</h2>
-<a href="mailto:hey@carlos-aguilar.com">hey@carlos-aguilar.com</a>
+<main>
+  <h1>⌛</h1>
+  <h2>coming soon...</h2>
+  <a href="mailto:hey@carlos-aguilar.com">hey@carlos-aguilar.com</a>
+</main>
 
 <style lang="postcss">
+  main {
+    @apply min-h-screen w-full overflow-hidden;
+    @apply flex flex-col items-center justify-center;
+  }
+
   h1 {
     @apply text-4xl sm:text-6xl md:text-8xl lg:text-9xl;
     @apply -mt-9 sm:-mt-12 md:-mt-24 lg:-mt-32;

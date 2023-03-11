@@ -4,9 +4,7 @@
 
 @layer base {
   body {
-    @apply min-h-screen w-full;
     @apply bg-stone-900 text-stone-100;
-    @apply flex flex-col items-center justify-center;
   }
 
   ::selection {
