@@ -4,34 +4,6 @@ import type Zdog from 'zdog'
 // Types
 // ================================
 
-/** Zdog primitive class */
-// export type PrimitiveClass =
-//   | typeof Zdog.Anchor
-//   | typeof Zdog.Box
-//   | typeof Zdog.Cone
-//   | typeof Zdog.Cylinder
-//   | typeof Zdog.Ellipse
-//   | typeof Zdog.Group
-//   | typeof Zdog.Hemisphere
-//   | typeof Zdog.Polygon
-//   | typeof Zdog.Rect
-//   | typeof Zdog.RoundedRect
-//   | typeof Zdog.Shape
-
-/** Zdog primitive options */
-// export type Options =
-//   | Zdog.AnchorOptions
-//   | Zdog.BoxOptions
-//   | Zdog.ConeOptions
-//   | Zdog.CylinderOptions
-//   | Zdog.EllipseOptions
-//   | Zdog.GroupOptions
-//   | Zdog.HemisphereOptions
-//   | Zdog.PolygonOptions
-//   | Zdog.RectOptions
-//   | Zdog.RoundedRectOptions
-//   | Zdog.ShapeOptions
-
 /** Zdog primitive */
 export type Primitive =
   | Zdog.Anchor
