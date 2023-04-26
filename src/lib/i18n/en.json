@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "name": "carlos aguilar",
+    "work": "work",
+    "lab": "lab"
+  },
+  "home": {
+    "wave": "hey 👋🏻",
+    "intro": "I'm Carlos Aguilar, a software engineer specializing in web technologies. Born in Malaga, Spain, I believe web design can be more diverse and inspiring. With a mission to present the possibilities of web design, I'm pursuing new expressions through experiments and thoughts.",
+    "job": "accedo.tv",
+    "edu": "Software Engineering @ UMA"
+  },
+  "misc": {
+    "soon": "Under construction..."
+  }
+}

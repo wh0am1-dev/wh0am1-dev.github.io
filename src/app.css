@@ -4,10 +4,69 @@
 
 @layer base {
   body {
-    @apply bg-stone-900 text-stone-100;
+    @apply bg-stone-800 text-stone-100;
+  }
+
+  body::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply bg-amber-400;
   }
 
   ::selection {
-    @apply bg-amber-400 text-stone-900;
+    @apply bg-amber-400 text-stone-800;
+  }
+
+  a {
+    @apply text-amber-400 hover:bg-amber-400 hover:text-stone-800;
+  }
+
+  a:has(> img, > svg) {
+    @apply hover:bg-transparent;
+  }
+
+  h1 {
+    @apply font-black;
+    @apply text-6xl lg:text-8xl;
+  }
+
+  h2 {
+    @apply font-extrabold;
+    @apply text-5xl lg:text-7xl;
+  }
+
+  h3 {
+    @apply font-bold;
+    @apply text-4xl lg:text-6xl;
+  }
+
+  h4 {
+    @apply font-semibold;
+    @apply text-3xl lg:text-5xl;
+  }
+
+  h5 {
+    @apply font-medium;
+    @apply text-2xl lg:text-4xl;
+  }
+
+  h6 {
+    @apply font-medium;
+    @apply text-xl lg:text-3xl;
+  }
+
+  p,
+  span {
+    @apply text-lg lg:text-2xl;
+  }
+
+  code {
+    @apply font-mono;
+  }
+
+  hr {
+    @apply my-16 w-full border-stone-700;
   }
 }

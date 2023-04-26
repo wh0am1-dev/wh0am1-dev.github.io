@@ -1,28 +1,24 @@
-<main>
-  <h1>⌛</h1>
-  <h2>coming soon...</h2>
-  <a href="mailto:hey@carlos-aguilar.com">hey@carlos-aguilar.com</a>
-</main>
+<script lang="ts">
+  import { i18n } from '$lib/i18n'
+  import Contact from '$lib/components/Contact.svelte'
+  import Atom from '$lib/components/Atom.svelte'
+</script>
 
-<style lang="postcss">
-  main {
-    @apply min-h-screen w-full overflow-hidden;
-    @apply flex flex-col items-center justify-center;
-  }
+<img
+  alt="ego"
+  src="/img/ego.jpg"
+  class="aspect-square w-64 rounded-full object-cover shadow-md lg:w-80"
+/>
 
-  h1 {
-    @apply text-4xl sm:text-6xl md:text-8xl lg:text-9xl;
-    @apply -mt-9 sm:-mt-12 md:-mt-24 lg:-mt-32;
-  }
+<h1 class="my-8">
+  {@html $i18n.home.wave}
+</h1>
 
-  h2 {
-    @apply my-4 font-bold;
-    @apply text-3xl sm:text-5xl md:text-7xl lg:text-8xl;
-  }
+<p class="max-w-2xl text-center">
+  {@html $i18n.home.intro}
+</p>
 
-  a {
-    @apply px-4 py-2 text-amber-400 no-underline;
-    @apply text-2xl sm:text-4xl md:text-6xl lg:text-7xl;
-    @apply hover:bg-amber-400 hover:text-stone-900;
-  }
-</style>
+<hr />
+<Contact />
+<hr />
+<Atom />
