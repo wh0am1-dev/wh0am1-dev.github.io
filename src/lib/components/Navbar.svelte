@@ -23,10 +23,10 @@
 
 <style lang="postcss">
   nav {
-    @apply sticky top-0 w-full shadow-md;
+    @apply sticky top-0 z-50 w-full shadow-md;
     @apply flex items-center justify-between;
     @apply bg-stone-800 bg-opacity-50 backdrop-blur-md;
-    @apply border-b border-stone-700;
+    @apply border-b border-stone-900;
   }
 
   li {
@@ -37,7 +37,7 @@
     @apply table-cell;
     @apply p-3 text-2xl;
     @apply md:p-6 md:text-5xl;
-    @apply lg:p-9 lg:text-7xl;
+    @apply xl:p-9 xl:text-7xl;
   }
 
   a.selected {
