@@ -1,0 +1,47 @@
+[
+  {
+    "company": "accedo.tv",
+    "logo": "/img/work/accedo.jpg",
+    "position": "senior software engineer",
+    "description": "dev lead @ Universal+<br>front-end @ itv.com",
+    "tech": ["react", "nextjs", "node", "typescript", "tailwindcss"],
+    "from": "jun 2022",
+    "to": "present"
+  },
+  {
+    "company": "JLL/T",
+    "logo": "/img/work/jll.jpg",
+    "position": "senior software engineer",
+    "description": "front-end @ property.jll.com",
+    "tech": ["nextjs", "node", "typescript", "sass", "azure"],
+    "from": "jan 2022",
+    "to": "jun 2022"
+  },
+  {
+    "company": "Ciklum",
+    "logo": "/img/work/ciklum.jpg",
+    "position": "middle software engineer",
+    "description": "front-end @ property.jll.co.uk",
+    "tech": ["nextjs", "node", "typescript", "sass", "azure"],
+    "from": "jul 2020",
+    "to": "dec 2021"
+  },
+  {
+    "company": "Verisk",
+    "logo": "/img/work/verisk.jpg",
+    "position": "junior software engineer",
+    "description": "full-stack hotfixes for an insurance management platform for Lloyd's of London",
+    "tech": ["react", "angular", "node", "c#", ".netcore"],
+    "from": "feb 2019",
+    "to": "jul 2020"
+  },
+  {
+    "company": "Athento",
+    "logo": "/img/work/athento.jpg",
+    "position": "software engineer intern",
+    "description": "full-stack for a document management platform and mobile remote admin tools",
+    "tech": ["python", "django", "javascript", "angular", "ionic"],
+    "from": "feb 2018",
+    "to": "jan 2019"
+  }
+]
