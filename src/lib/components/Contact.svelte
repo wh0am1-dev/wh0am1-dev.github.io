@@ -77,6 +77,6 @@
   }
 
   a {
-    @apply text-stone-100 hover:text-stone-800;
+    @apply px-1 text-stone-100 hover:text-stone-800;
   }
 </style>
