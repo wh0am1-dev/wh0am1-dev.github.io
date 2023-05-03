@@ -27,6 +27,7 @@
   zoom={3}
   update={node => delta => {
     if (rotate) {
+      node.rotate.x = easeInOut(ticker % 1, 4) * TAU
       node.rotate.y = easeInOut(ticker % 1, 5) * TAU
       ticker += delta / 6000
     }
