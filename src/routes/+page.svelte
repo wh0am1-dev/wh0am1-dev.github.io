@@ -7,14 +7,14 @@
 <img
   alt="ego"
   src="/img/ego.jpg"
-  class="aspect-square w-64 rounded-full object-cover shadow-md lg:w-80"
+  class="aspect-square w-64 rounded-full border border-stone-900 object-cover shadow-md lg:w-80"
 />
 
 <h1 class="my-8">
   {@html $i18n.home.wave}
 </h1>
 
-<p class="max-w-2xl text-center">
+<p class="max-w-2xl px-4 text-center">
   {@html $i18n.home.intro}
 </p>
 
