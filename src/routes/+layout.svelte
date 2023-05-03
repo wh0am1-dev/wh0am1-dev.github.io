@@ -12,8 +12,9 @@
 
 <style lang="postcss">
   main {
-    @apply flex w-full flex-col items-center;
-    @apply py-16 md:py-20 lg:py-32;
-    @apply px-8 md:px-10 lg:px-16;
+    @apply mx-auto flex w-full max-w-screen-2xl flex-col items-center;
+    @apply px-4 py-16;
+    @apply md:px-10 md:py-20;
+    @apply xl:px-16 xl:py-32;
   }
 </style>
