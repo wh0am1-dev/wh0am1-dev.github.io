@@ -3,29 +3,35 @@
   import { AcademicCap, Briefcase, Phone, Envelope } from '@steeze-ui/heroicons'
   import { Github, Linkedin, Twitter } from '@steeze-ui/remix-icons'
   import { i18n } from '$lib/i18n'
+  import contact from '$lib/data/contact.json'
+  import work from '$lib/data/work.json'
 </script>
 
 <ul>
   <li>
     <i><Icon src={Briefcase} theme="solid" /></i>
-    <a href="https://accedo.tv" target="_blank" rel="noopener noreferrer">
-      {@html $i18n.home.job}
+    <a href={work[0].link} target="_blank" rel="noopener noreferrer">
+      {work[0].company}
     </a>
   </li>
   <li>
     <i><Icon src={AcademicCap} theme="solid" /></i>
-    {@html $i18n.home.edu}
+    <span>{$i18n.home.edu}</span>
   </li>
 </ul>
 
 <ul>
   <li>
     <i><Icon src={Phone} theme="solid" /></i>
-    <a href="tel:+34605271060">+34 605 271 060</a>
+    <a href={`tel:${contact.phone.replaceAll(' ', '')}`}>
+      {contact.phone}
+    </a>
   </li>
   <li>
     <i><Icon src={Envelope} theme="solid" /></i>
-    <a href="mailto:hey@carlos-aguilar.com">hey@carlos-aguilar.com</a>
+    <a href={`mailto:${contact.email}`}>
+      {contact.email}
+    </a>
   </li>
 </ul>
 
@@ -33,31 +39,31 @@
   <li>
     <i><Icon src={Github} theme="solid" /></i>
     <a
-      href="https://github.com/wh0am1-dev"
+      href={`https://github.com/${contact.github}`}
       target="_blank"
       rel="noopener noreferrer"
     >
-      @wh0am1-dev
+      @{contact.github}
     </a>
   </li>
   <li>
     <i><Icon src={Linkedin} theme="solid" /></i>
     <a
-      href="https://linkedin.com/in/carlosaguilardev"
+      href={`https://linkedin.com/in/${contact.linkedin}`}
       target="_blank"
       rel="noopener noreferrer"
     >
-      @carlosaguilardev
+      @{contact.linkedin}
     </a>
   </li>
   <li>
     <i><Icon src={Twitter} theme="solid" /></i>
     <a
-      href="https://twitter.com/wh0am1_dev"
+      href={`https://twitter.com/${contact.twitter}`}
       target="_blank"
       rel="noopener noreferrer"
     >
-      @wh0am1_dev
+      @{contact.twitter}
     </a>
   </li>
 </ul>
@@ -73,7 +79,7 @@
   }
 
   i {
-    @apply float-left mr-2 w-6 text-amber-400;
+    @apply float-left mr-2 w-7 text-amber-400 xl:w-8;
   }
 
   a {

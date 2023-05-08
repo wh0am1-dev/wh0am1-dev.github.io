@@ -1,21 +1,22 @@
 <script lang="ts">
   import { page } from '$app/stores'
   import { i18n } from '$lib/i18n'
+  import contact from '$lib/data/contact.json'
 </script>
 
 <nav>
   <a href="/" class="font-bold" class:selected={$page.route.id === '/'}>
-    {@html $i18n.nav.name}
+    {contact.name}
   </a>
   <ul>
     <li>
       <a href="/work" class:selected={$page.route.id === '/work'}>
-        {@html $i18n.nav.work}
+        {$i18n.work.title}
       </a>
     </li>
     <li>
       <a href="/lab" class:selected={$page.route.id === '/lab'}>
-        {@html $i18n.nav.lab}
+        {$i18n.lab.title}
       </a>
     </li>
   </ul>
@@ -26,7 +27,7 @@
     @apply sticky top-0 z-50 w-full shadow-md;
     @apply flex items-center justify-between;
     @apply bg-stone-800 bg-opacity-50 backdrop-blur-md;
-    @apply border-b border-stone-900;
+    @apply border-b border-stone-700;
   }
 
   li {

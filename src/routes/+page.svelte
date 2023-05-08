@@ -7,7 +7,7 @@
 <img
   alt="ego"
   src="/img/ego.jpg"
-  class="aspect-square w-64 rounded-full border border-stone-900 object-cover shadow-md lg:w-80"
+  class="pointer-events-none aspect-square w-64 rounded-md border border-stone-700 object-cover shadow-md lg:w-80"
 />
 
 <h1 class="my-8">

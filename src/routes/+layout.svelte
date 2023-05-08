@@ -1,13 +1,19 @@
 <script lang="ts">
+  import { blur } from 'svelte/transition'
+  import { page } from '$app/stores'
   import Navbar from '$lib/components/Navbar.svelte'
   import Language from '$lib/components/Language.svelte'
   import '../app.css'
 </script>
 
 <Navbar />
-<main>
-  <slot />
-</main>
+
+{#key $page.route.id}
+  <main in:blur={{ amount: 2, opacity: 0, duration: 300 }}>
+    <slot />
+  </main>
+{/key}
+
 <Language />
 
 <style lang="postcss">
