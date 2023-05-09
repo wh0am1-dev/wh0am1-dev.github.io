@@ -93,6 +93,6 @@
   }
 
   a {
-    @apply px-1 text-stone-100;
+    @apply px-1 text-stone-100 hover:text-stone-800;
   }
 </style>
