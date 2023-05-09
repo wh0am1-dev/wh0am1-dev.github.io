@@ -1,16 +1,23 @@
 {
+  "nav": {
+    "work": "cv",
+    "lab": "oss"
+  },
   "home": {
     "wave": "hola 👋🏻",
-    "intro": "Soy Carlos, un ingeniero de software especializado en tecnologías web. Nacido en Málaga, España, creo que el diseño web puede ser más diverso e inspirador. Con la misión de presentar las posibilidades del diseño web, busco nuevas expresiones a través de experimentos y pensamientos.",
-    "edu": "Software Engineering @ UMA"
+    "intro": "soy carlos, desarrollador web,<br>escríbeme si necesitas lo que sea,<br>quieres charlar sobre algún tema<br>o si solo quieres saludar ! 🙃",
+    "education": "ingeniería de software @ uma",
+    "location": "málaga, españa"
   },
   "work": {
-    "title": "labor"
+    "title": "curriculum",
+    "description": "empresas con las que he trabajado"
   },
   "lab": {
-    "title": "oss"
+    "title": "oss",
+    "description": "proyectos open-source personales"
   },
   "misc": {
-    "soon": "En construcción..."
+    "soon": "en construcción..."
   }
 }

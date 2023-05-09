@@ -11,12 +11,12 @@
   <ul>
     <li>
       <a href="/work" class:selected={$page.route.id === '/work'}>
-        {$i18n.work.title}
+        {$i18n.nav.work}
       </a>
     </li>
     <li>
       <a href="/lab" class:selected={$page.route.id === '/lab'}>
-        {$i18n.lab.title}
+        {$i18n.nav.lab}
       </a>
     </li>
   </ul>
@@ -38,7 +38,6 @@
     @apply table-cell;
     @apply p-3 text-2xl;
     @apply md:p-6 md:text-5xl;
-    @apply xl:p-9 xl:text-7xl;
   }
 
   a.selected {

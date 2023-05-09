@@ -9,7 +9,7 @@
 <Navbar />
 
 {#key $page.route.id}
-  <main in:blur={{ amount: 2, opacity: 0, duration: 300 }}>
+  <main in:blur={{ amount: 1, opacity: 0, duration: 400 }}>
     <slot />
   </main>
 {/key}

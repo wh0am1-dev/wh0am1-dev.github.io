@@ -14,8 +14,8 @@
 </script>
 
 <a href={job.link} target="_blank" rel="noopener noreferrer">
-  <div
-    class="h-full rounded-md border border-stone-700 p-4 shadow-md transition-all hover:scale-105 hover:border-amber-400 hover:shadow-lg md:p-8"
+  <section
+    class="h-full rounded-md border border-stone-700 p-4 shadow-md md:p-8"
   >
     <img
       src={job.logo}
@@ -46,5 +46,13 @@
         </span>
       {/each}
     </div>
-  </div>
+  </section>
 </a>
+
+<style lang="postcss">
+  @media (hover: hover) {
+    section {
+      @apply transition-all hover:scale-105 hover:border-amber-400 hover:shadow-lg;
+    }
+  }
+</style>

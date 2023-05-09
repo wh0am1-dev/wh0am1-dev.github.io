@@ -11,6 +11,7 @@
     easeInOut,
   } from 'svelte-zdog'
 
+  export let size = 128
   let ticker = 0
   let rotate = false
 
@@ -22,9 +23,9 @@
 
 <Illustration
   element="canvas"
-  width={128}
-  height={128}
-  zoom={3}
+  width={size}
+  height={size}
+  zoom={size / 40}
   update={node => delta => {
     if (rotate) {
       node.rotate.x = easeInOut(ticker % 1, 4) * TAU

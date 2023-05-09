@@ -1,16 +1,23 @@
 {
+  "nav": {
+    "work": "cv",
+    "lab": "oss"
+  },
   "home": {
     "wave": "hey 👋🏻",
-    "intro": "I'm Carlos, a software engineer specializing in web technologies. Born in Malaga, Spain, I believe web design can be more diverse and inspiring. With a mission to present the possibilities of web design, I'm pursuing new expressions through experiments and thoughts.",
-    "edu": "Software Engineering @ UMA"
+    "intro": "I'm carlos, I do web things,<br>ping me if you need anything,<br>want to discuss some topic,<br>or just want to say hi ! 🙃",
+    "education": "software engineering @ uma",
+    "location": "malaga, spain"
   },
   "work": {
-    "title": "work"
+    "title": "curriculum",
+    "description": "companies I've worked with"
   },
   "lab": {
-    "title": "oss"
+    "title": "oss",
+    "description": "personal open-source projects"
   },
   "misc": {
-    "soon": "Under construction..."
+    "soon": "under construction..."
   }
 }
