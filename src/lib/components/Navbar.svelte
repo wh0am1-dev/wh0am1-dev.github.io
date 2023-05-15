@@ -1,6 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores'
   import { i18n } from '$lib/i18n'
+  import { theme } from '$lib/stores'
   import contact from '$lib/data/contact.json'
 </script>
 
@@ -19,6 +20,11 @@
         {$i18n.nav.lab}
       </a>
     </li>
+    <li>
+      <button on:click={() => ($theme = $theme === 'dark' ? 'light' : 'dark')}>
+        {#if $theme === 'light'}⚫{:else}⚪{/if}
+      </button>
+    </li>
   </ul>
 </nav>
 
@@ -26,21 +32,36 @@
   nav {
     @apply sticky top-0 z-50 w-full shadow-md;
     @apply flex items-center justify-between;
-    @apply bg-stone-800 bg-opacity-50 backdrop-blur-md;
-    @apply border-b border-stone-700;
+    @apply bg-stone-100 bg-opacity-50 backdrop-blur-md;
+    @apply border-b border-stone-300;
+    @apply dark:border-stone-700 dark:bg-stone-800 dark:bg-opacity-50;
   }
 
   li {
     @apply float-left flex h-full items-center justify-between;
   }
 
-  a {
+  a,
+  button {
     @apply table-cell;
     @apply p-3 text-2xl;
     @apply md:p-6 md:text-5xl;
   }
 
   a.selected {
-    @apply bg-amber-400 text-stone-800;
+    @apply bg-amber-500 text-stone-800;
+    @apply dark:bg-amber-400;
+  }
+
+  button {
+    @apply table-cell;
+    @apply p-3 text-2xl;
+    @apply md:p-6 md:text-5xl;
+  }
+
+  @media (hover: hover) {
+    button {
+      @apply hover:bg-amber-500 dark:hover:bg-amber-400;
+    }
   }
 </style>

@@ -22,6 +22,7 @@
 
   button {
     @apply rounded-md px-2 py-1 font-emoji text-lg;
-    @apply hover:bg-stone-700;
+    @apply hover:bg-stone-300;
+    @apply dark:hover:bg-stone-700;
   }
 </style>

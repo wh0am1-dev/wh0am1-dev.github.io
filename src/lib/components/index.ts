@@ -1,0 +1,8 @@
+export { default as Atom } from './Atom.svelte'
+export { default as Contact } from './Contact.svelte'
+export { default as Footer } from './Footer.svelte'
+export { default as Job } from './Job.svelte'
+export { default as Language } from './Language.svelte'
+export { default as MNML } from './MNML.svelte'
+export { default as Navbar } from './Navbar.svelte'
+export { default as Project } from './Project.svelte'

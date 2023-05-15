@@ -7,16 +7,16 @@
   export { className as class }
 </script>
 
-<main class={className}>
+<div class={className}>
   <img src={img} alt={title} />
   <h4 class="my-2">{title}</h4>
   {#if description}
     <p>{description}</p>
   {/if}
-</main>
+</div>
 
 <style lang="postcss">
-  main {
+  div {
     @apply cursor-pointer p-4 xl:p-8;
     @apply rounded-md border border-stone-700;
     @apply transition-all hover:-translate-y-2 hover:shadow-md;

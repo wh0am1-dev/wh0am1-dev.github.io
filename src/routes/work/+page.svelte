@@ -1,7 +1,6 @@
 <script lang="ts">
   import { i18n } from '$lib/i18n'
-  import Job from '$lib/components/Job.svelte'
-  import Footer from '$lib/components/Footer.svelte'
+  import { Job } from '$lib/components'
   import work from '$lib/data/work.json'
 </script>
 
@@ -12,11 +11,8 @@
 
 <div class="mt-16 flex flex-wrap items-stretch">
   {#each work as job}
-    <div class="basis-full p-2 xl:basis-1/2 xl:p-4">
+    <div class="basis-full p-4 xl:basis-1/2">
       <Job {job} />
     </div>
   {/each}
 </div>
-
-<hr />
-<Footer />

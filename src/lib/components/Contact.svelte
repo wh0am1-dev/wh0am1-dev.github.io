@@ -89,10 +89,12 @@
   }
 
   i {
-    @apply float-left mr-2 w-7 text-amber-400 xl:w-8;
+    @apply float-left mr-2 w-7 text-amber-500 xl:w-8;
+    @apply dark:text-amber-400;
   }
 
   a {
-    @apply px-1 text-stone-100 hover:text-stone-800;
+    @apply px-1 text-stone-800;
+    @apply dark:text-stone-100 dark:hover:text-stone-800;
   }
 </style>
