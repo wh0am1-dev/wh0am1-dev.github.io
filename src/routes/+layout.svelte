@@ -21,8 +21,6 @@
   main {
     @apply flex flex-col items-center;
     @apply mx-auto w-full max-w-screen-2xl;
-    @apply px-4 py-16;
-    @apply md:px-10 md:py-20;
-    @apply xl:px-16 xl:py-32;
+    @apply px-4 py-16 md:px-10 xl:px-16;
   }
 </style>
