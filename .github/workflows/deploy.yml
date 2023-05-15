@@ -2,6 +2,8 @@ name: Build and Deploy
 
 on:
   push:
+    branches:
+      - main
     tags:
       - '*'
   workflow_dispatch:

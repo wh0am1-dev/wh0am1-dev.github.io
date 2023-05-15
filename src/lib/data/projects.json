@@ -3,7 +3,99 @@
     "title": "svelte-zdog",
     "link": "https://carlos-aguilar.com/svelte-zdog",
     "img": "https://raw.githubusercontent.com/wh0am1-dev/svelte-zdog/main/static/og.png",
-    "description": "svelte components for zdog 3D renders",
-    "tech": ["svelte", "tailwindcss", "typescript"]
+    "description": "svelte components for zdog pseudo-3D renders",
+    "from": "mar 2023",
+    "to": "present",
+    "tech": ["svelte", "tailwindcss", "typescript", "npm package"]
+  },
+  {
+    "title": "hck.nws",
+    "link": "https://carlos-aguilar.com/hck.nws",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/hck.nws/master/src/img/hck.nws.512.png",
+    "description": "hacker news client progressive web application made with react",
+    "from": "may 2019",
+    "to": "present",
+    "tech": ["react", "material-ui", "redux", "open-graph", "typescript"]
+  },
+  {
+    "title": "types&synths",
+    "link": "https://typesandsynths.art",
+    "img": "https://raw.githubusercontent.com/typesandsynths/typesandsynths.github.io/master/src/static/icon.png",
+    "description": "interactive experiments around typography and audio synthesis",
+    "from": "feb 2022",
+    "to": "present",
+    "tech": ["react", "tailwindcss", "processing", "parcel", "typescript"]
+  },
+  {
+    "title": "qset",
+    "link": "https://carlos-aguilar.com/qset",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/qset/gh-pages/img/qset-white.png",
+    "description": "the quantum set, a collection of excerpts from scientists, philosophers, theologists, et cetera",
+    "from": "mar 2018",
+    "to": "apr 2021",
+    "tech": ["jquery", "tachyons", "javascript", "keyboard"]
+  },
+  {
+    "title": "aisthesis",
+    "link": "https://github.com/wh0am1-dev/aisthesis",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/aisthesis/master/img/bacchus.jpg",
+    "description": "/αἴσθησις/ collection of livecoding snippets, algorave code, research, collabs, resources, et cetera",
+    "from": "jun 2018",
+    "to": "jan 2019",
+    "tech": ["python", "ruby", "glsl", "supercollider", "algorave"]
+  },
+  {
+    "title": "choof",
+    "link": "https://github.com/wh0am1-dev/choof",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/choof/master/assets/choof.png",
+    "description": "choo project scaffolding template",
+    "from": "dec 2018",
+    "to": "jan 2019",
+    "tech": ["choo", "tachyons", "javascript", "scaffolding"]
+  },
+  {
+    "title": "sublime-pico-8",
+    "link": "https://packagecontrol.io/packages/PICO-8",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+    "description": "pico-8 plugin for the sublime text 3 editor",
+    "from": "jun 2016",
+    "to": "sep 2019",
+    "tech": ["python", "sublime text", "plugin", "syntax", "intellisense"]
+  },
+  {
+    "title": "pico-8 api",
+    "link": "https://carlos-aguilar.com/pico8-api",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+    "description": "spanish rocket league leaderboard progressive web application, made with choo and tachyons",
+    "from": "jul 2016",
+    "to": "jun 2019",
+    "tech": ["jquery", "bootstrap", "javascript", "documentation"]
+  },
+  {
+    "title": "rlspain",
+    "link": "https://github.com/wh0am1-dev/rlspain",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/rlspain/master/assets/img/rlspain.png",
+    "description": "spanish rocket league leaderboard progressive web application, made with choo and tachyons",
+    "from": "aug 2018",
+    "to": "mar 2021",
+    "tech": ["choo", "tachyons", "javascript", "web crawling", "leaderboard"]
+  },
+  {
+    "title": "mind-spun",
+    "link": "https://github.com/wh0am1-dev/mind-spun",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/mind-spun/master/assets/img/icon.png",
+    "description": "puzzle videogame about sorting out entangled color tokens",
+    "from": "aug 2015",
+    "to": "oct 2015",
+    "tech": ["lua", "love2D", "native", "game design", "puzzle"]
+  },
+  {
+    "title": "gravitron",
+    "link": "https://github.com/wh0am1-dev/gravitron",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/Gravitron/master/assets/img/p.png",
+    "description": "puzzle videogame about reaching the ship without gravity",
+    "from": "dec 2014",
+    "to": "jan 2015",
+    "tech": ["phaser", "javascript", "game design", "puzzle"]
   }
 ]

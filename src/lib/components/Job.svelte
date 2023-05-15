@@ -15,14 +15,14 @@
 
 <a href={job.link} target="_blank" rel="noopener noreferrer">
   <section
-    class="h-full rounded-md border border-stone-300 p-4 shadow-md dark:border-stone-700 dark:shadow-stone-700 md:p-8"
+    class="h-full rounded-md border border-stone-300 p-4 shadow-md dark:border-stone-700 md:p-8"
   >
     <img
       src={job.logo}
       alt={job.company}
       class="aspect-square w-16 rounded-md object-cover xl:w-32"
     />
-    <h3 class="mt-4 text-amber-500 dark:text-amber-400 xl:mt-8">
+    <h3 class="mt-4 text-stone-800 dark:text-stone-100 xl:mt-8">
       {job.company}
     </h3>
 
