@@ -2,22 +2,21 @@
   import { page } from '$app/stores'
   import { i18n } from '$lib/i18n'
   import { theme } from '$lib/stores'
-  import contact from '$lib/data/contact.json'
 </script>
 
 <nav>
   <a href="/" class="font-bold" class:selected={$page.route.id === '/'}>
-    {contact.name}
+    {$i18n.nav.name}
   </a>
   <ul>
     <li>
-      <a href="/work" class:selected={$page.route.id === '/work'}>
-        {$i18n.nav.work}
+      <a href="/cv" class:selected={$page.route.id === '/cv'}>
+        {$i18n.nav.cv}
       </a>
     </li>
     <li>
-      <a href="/lab" class:selected={$page.route.id === '/lab'}>
-        {$i18n.nav.lab}
+      <a href="/oss" class:selected={$page.route.id === '/oss'}>
+        {$i18n.nav.oss}
       </a>
     </li>
     <li>
