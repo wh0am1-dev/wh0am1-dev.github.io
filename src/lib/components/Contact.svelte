@@ -9,15 +9,13 @@
   } from '@steeze-ui/heroicons'
   import { Github, Linkedin, Twitter } from '@steeze-ui/remix-icons'
   import { i18n } from '$lib/i18n'
-  import contact from '$lib/data/contact.json'
-  import work from '$lib/data/work.json'
 </script>
 
 <ul>
   <li>
     <i><Icon src={Briefcase} theme="solid" /></i>
-    <a href={work[0].link} target="_blank" rel="noopener noreferrer">
-      {work[0].company}
+    <a href={$i18n.cv.jobs[0].link} target="_blank" rel="noopener noreferrer">
+      {$i18n.cv.jobs[0].company}
     </a>
   </li>
   <li>
@@ -30,31 +28,31 @@
   <li>
     <i><Icon src={Github} theme="solid" /></i>
     <a
-      href={`https://github.com/${contact.github}`}
+      href={`https://github.com/${$i18n.home.github}`}
       target="_blank"
       rel="noopener noreferrer"
     >
-      @{contact.github}
+      @{$i18n.home.github}
     </a>
   </li>
   <li>
     <i><Icon src={Linkedin} theme="solid" /></i>
     <a
-      href={`https://linkedin.com/in/${contact.linkedin}`}
+      href={`https://linkedin.com/in/${$i18n.home.linkedin}`}
       target="_blank"
       rel="noopener noreferrer"
     >
-      @{contact.linkedin}
+      @{$i18n.home.linkedin}
     </a>
   </li>
   <li>
     <i><Icon src={Twitter} theme="solid" /></i>
     <a
-      href={`https://twitter.com/${contact.twitter}`}
+      href={`https://twitter.com/${$i18n.home.twitter}`}
       target="_blank"
       rel="noopener noreferrer"
     >
-      @{contact.twitter}
+      @{$i18n.home.twitter}
     </a>
   </li>
 </ul>
@@ -62,14 +60,14 @@
 <ul>
   <li>
     <i><Icon src={Envelope} theme="solid" /></i>
-    <a href={`mailto:${contact.email}`}>
-      {contact.email}
+    <a href={`mailto:${$i18n.home.email}`}>
+      {$i18n.home.email}
     </a>
   </li>
   <li>
     <i><Icon src={Phone} theme="solid" /></i>
-    <a href={`tel:${contact.phone.replaceAll(' ', '')}`}>
-      {contact.phone}
+    <a href={`tel:${$i18n.home.phone.replaceAll(' ', '')}`}>
+      {$i18n.home.phone}
     </a>
   </li>
   <li>
