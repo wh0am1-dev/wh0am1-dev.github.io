@@ -10,6 +10,7 @@ module.exports = {
         sans: ['Outfit', ...theme.fontFamily.sans],
         mono: ['Fira Code', ...theme.fontFamily.mono],
         emoji: ['Noto Color Emoji'],
+        flow: ['Flow Circular'],
       },
     },
   },
