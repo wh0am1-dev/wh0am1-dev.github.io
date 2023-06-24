@@ -32,8 +32,9 @@
     @apply sticky top-0 z-50 w-full shadow-md;
     @apply flex items-center justify-between;
     @apply bg-stone-100 bg-opacity-50 backdrop-blur-md;
-    @apply border-b border-stone-300;
+    @apply border-b border-stone-400;
     @apply dark:border-stone-700 dark:bg-stone-800 dark:bg-opacity-50;
+    @apply dark:shadow-stone-900;
   }
 
   li {
