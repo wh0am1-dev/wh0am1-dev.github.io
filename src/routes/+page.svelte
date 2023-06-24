@@ -7,10 +7,9 @@
   alt="ego"
   src="/img/ego.png"
   class="
-    aspect-square w-64 rounded-md
-    border-4 border-amber-500 bg-amber-500 object-cover shadow-md
-    dark:border-amber-400 dark:bg-amber-400 dark:shadow-stone-900
-    xl:w-80
+    aspect-square w-48 rounded-full border-4
+    border-amber-500 bg-amber-500 object-cover shadow-md dark:border-amber-400
+    dark:bg-amber-400 dark:shadow-stone-900 xl:w-64
   "
 />
 
@@ -33,7 +32,8 @@
 <style lang="postcss">
   @media (hover: hover) {
     img {
-      @apply transition-all hover:scale-105 hover:shadow-lg;
+      @apply transition-all hover:scale-110 hover:shadow-lg active:scale-95;
+      @apply dark:hover:shadow-stone-900;
     }
   }
 
