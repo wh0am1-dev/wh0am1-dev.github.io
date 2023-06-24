@@ -1,6 +1,6 @@
 export { default as Atom } from './Atom.svelte'
+export { default as Card } from './Card.svelte'
 export { default as Contact } from './Contact.svelte'
-export { default as Ego } from './Ego.svelte'
 export { default as Footer } from './Footer.svelte'
 export { default as Job } from './Job.svelte'
 export { default as Language } from './Language.svelte'
