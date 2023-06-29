@@ -11,7 +11,7 @@ export const theme = writable<Theme>(
     if (stored) return stored as Theme
 
     const user = window.matchMedia?.('(prefers-color-scheme: dark)').matches
-    if (user !== undefined) return user ? 'dark' : 'light'
+    if (user) return user ? 'dark' : 'light'
 
     return 'dark'
   })()
