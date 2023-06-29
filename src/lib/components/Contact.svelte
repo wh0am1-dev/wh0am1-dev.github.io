@@ -7,22 +7,10 @@
     Envelope,
     MapPin,
   } from '@steeze-ui/heroicons'
-  import { Github, Linkedin, Twitter } from '@steeze-ui/remix-icons'
+  import { Github, Linkedin, Twitter, Telegram } from '@steeze-ui/remix-icons'
   import { i18n } from '$lib/i18n'
+  import { T2 } from '$lib/components'
 </script>
-
-<ul>
-  <li>
-    <i><Icon src={Briefcase} theme="solid" /></i>
-    <a href={$i18n.cv.jobs[0].link} target="_blank" rel="noopener noreferrer">
-      {$i18n.cv.jobs[0].company}
-    </a>
-  </li>
-  <li>
-    <i><Icon src={AcademicCap} theme="solid" /></i>
-    <span>{$i18n.home.education}</span>
-  </li>
-</ul>
 
 <ul>
   <li>
@@ -45,6 +33,24 @@
       @{$i18n.home.linkedin}
     </a>
   </li>
+</ul>
+
+<ul>
+  <li>
+    <i><Icon src={Briefcase} theme="solid" /></i>
+    <a href={$i18n.cv.jobs[0].link} target="_blank" rel="noopener noreferrer">
+      {$i18n.cv.jobs[0].company}
+    </a>
+  </li>
+  <li>
+    <i><Icon src={AcademicCap} theme="solid" /></i>
+    <a href={$i18n.home.academy} target="_blank" rel="noopener noreferrer">
+      {$i18n.home.education}
+    </a>
+  </li>
+</ul>
+
+<ul>
   <li>
     <i><Icon src={Twitter} theme="solid" /></i>
     <a
@@ -53,6 +59,26 @@
       rel="noopener noreferrer"
     >
       @{$i18n.home.twitter}
+    </a>
+  </li>
+  <li>
+    <i><Icon src={Telegram} theme="solid" /></i>
+    <a
+      href="https://t.me/{$i18n.home.telegram}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      @{$i18n.home.telegram}
+    </a>
+  </li>
+  <li>
+    <i><T2 class="w-8 fill-amber-500 p-1 dark:fill-amber-400" /></i>
+    <a
+      href="https://t2.social/{$i18n.home.t2}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      @{$i18n.home.t2}
     </a>
   </li>
 </ul>
@@ -70,9 +96,14 @@
       {$i18n.home.phone}
     </a>
   </li>
+</ul>
+
+<ul>
   <li>
     <i><Icon src={MapPin} theme="solid" /></i>
-    <span>{$i18n.home.location}</span>
+    <a href={$i18n.home.map} target="_blank" rel="noopener noreferrer">
+      {$i18n.home.location}
+    </a>
   </li>
 </ul>
 
