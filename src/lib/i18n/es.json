@@ -7,13 +7,17 @@
   "home": {
     "wave": "hola 👋",
     "intro": "soy carlos, desarrollador web,<br>escríbeme si necesitas lo que sea,<br>quieres charlar sobre algún tema<br>o si solo quieres saludar ! 🙃",
-    "phone": "+34 605 271 060",
-    "email": "hey@carlos-aguilar.com",
-    "education": "ingeniería de software @ uma",
-    "location": "málaga, españa",
     "github": "wh0am1-dev",
     "linkedin": "carlosaguilardev",
-    "twitter": "wh0am1_dev"
+    "education": "ingeniería de software @ uma",
+    "academy": "https://www.uma.es",
+    "twitter": "wh0am1_dev",
+    "telegram": "wh0am1_dev",
+    "t2": "wh0am1",
+    "email": "hey@carlos-aguilar.com",
+    "phone": "+34 605 271 060",
+    "location": "málaga, españa",
+    "map": "https://goo.gl/maps/xT9RiYmFMBWYrxGs9"
   },
   "misc": {
     "soon": "en construcción..."
