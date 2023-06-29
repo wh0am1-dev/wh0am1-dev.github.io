@@ -8,8 +8,9 @@
   src="/img/ego.png"
   class="
     aspect-square w-48 rounded-full border-4
-    border-amber-500 bg-amber-500 object-cover shadow-md dark:border-amber-400
-    dark:bg-amber-400 dark:shadow-stone-900 xl:w-64
+    border-amber-500 bg-amber-500 object-cover shadow-md
+    dark:border-amber-400 dark:bg-amber-400 dark:shadow-stone-900
+    xl:w-64
   "
 />
 
