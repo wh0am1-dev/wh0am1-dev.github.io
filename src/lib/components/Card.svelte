@@ -20,8 +20,8 @@
   @media (hover: hover) {
     section {
       @apply hover:scale-105 hover:shadow-lg;
-      @apply hover:ring-2 hover:ring-amber-500 dark:hover:ring-amber-400;
-      @apply dark:hover:shadow-stone-900;
+      @apply hover:ring-2 hover:ring-amber-500;
+      @apply dark:hover:shadow-stone-900 dark:hover:ring-amber-400;
     }
   }
 </style>
