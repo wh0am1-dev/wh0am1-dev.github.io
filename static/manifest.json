@@ -1,0 +1,18 @@
+{
+  "id": "/",
+  "short_name": "carlos-aguilar",
+  "name": "carlos aguilar",
+  "description": "web developer based in malaga, spain",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "theme_color": "#fbbf24",
+  "background_color": "#292524",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    }
+  ]
+}
