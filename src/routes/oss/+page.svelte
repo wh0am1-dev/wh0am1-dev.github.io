@@ -3,6 +3,10 @@
   import { Project } from '$lib/components'
 </script>
 
+<svelte:head>
+  <title>carlos aguilar / open-source</title>
+</svelte:head>
+
 <h1>{$i18n.oss.title}</h1>
 <h5 class="text-center">
   {$i18n.oss.description}

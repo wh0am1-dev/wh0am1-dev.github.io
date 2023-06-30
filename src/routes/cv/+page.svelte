@@ -3,6 +3,10 @@
   import { Job } from '$lib/components'
 </script>
 
+<svelte:head>
+  <title>carlos aguilar / curriculum</title>
+</svelte:head>
+
 <h1>{$i18n.cv.title}</h1>
 <h5 class="text-center">
   {$i18n.cv.description}
