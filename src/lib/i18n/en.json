@@ -79,8 +79,8 @@
     ]
   },
   "oss": {
-    "title": "oss",
-    "description": "personal open-source projects",
+    "title": "open-source",
+    "description": "personal projects",
     "projects": [
       {
         "title": "svelte-zdog",
