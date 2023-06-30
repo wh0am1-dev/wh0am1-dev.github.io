@@ -3,6 +3,10 @@
   import { Contact } from '$lib/components'
 </script>
 
+<svelte:head>
+  <title>carlos aguilar</title>
+</svelte:head>
+
 <img
   alt="ego"
   src="/img/ego.png"
