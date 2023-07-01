@@ -7,16 +7,7 @@
   <title>carlos aguilar</title>
 </svelte:head>
 
-<img
-  alt="ego"
-  src="/img/ego.png"
-  class="
-    aspect-square w-48 rounded-full border-4
-    border-amber-500 bg-amber-500 object-cover shadow-md
-    dark:border-amber-400 dark:bg-amber-400 dark:shadow-stone-900
-    xl:w-64
-  "
-/>
+<img alt="ego" src="/img/ego.png" />
 
 <h1 class="relative my-8">
   {#key $i18n.home.wave}
@@ -37,10 +28,19 @@
 <Contact />
 
 <style lang="postcss">
+  img {
+    @apply aspect-square w-48 rounded-full object-cover md:w-64;
+    @apply bg-amber-500 dark:bg-amber-400;
+    @apply border-4 border-amber-500 dark:border-amber-400;
+    @apply shadow-sm shadow-stone-400 dark:shadow-stone-950;
+  }
+
   @media (hover: hover) {
     img {
-      @apply transition-all hover:scale-110 hover:shadow-lg active:scale-95;
-      @apply dark:hover:shadow-stone-900;
+      @apply transition-all hover:scale-105;
+      @apply hover:shadow-md hover:shadow-stone-400;
+      @apply active:scale-95 active:shadow-sm;
+      @apply dark:hover:shadow-stone-950;
     }
   }
 
