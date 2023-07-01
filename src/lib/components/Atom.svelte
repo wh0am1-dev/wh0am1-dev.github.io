@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { onMount } from 'svelte'
   import colors from 'tailwindcss/colors'
   import {
     Illustration,
@@ -13,13 +12,8 @@
   import { theme } from '$lib/stores'
 
   export let size = 128
-  let ticker = 0
-  let rotate = false
-
-  onMount(() => {
-    const timeout = setTimeout(() => (rotate = true), 1000)
-    return () => clearTimeout(timeout)
-  })
+  let ticker = 0.85
+  $: $theme && (ticker = 0.85)
 </script>
 
 {#key $theme}
@@ -28,12 +22,15 @@
     width={size}
     height={size}
     zoom={size / 40}
+    rotate={{
+      x: easeInOut(ticker, 4) * TAU,
+      y: easeInOut(ticker, 5) * TAU,
+    }}
     update={node => delta => {
-      if (rotate) {
-        node.rotate.x = easeInOut(ticker % 1, 4) * TAU
-        node.rotate.y = easeInOut(ticker % 1, 5) * TAU
-        ticker += delta / 6000
-      }
+      node.rotate.x = easeInOut(ticker, 4) * TAU
+      node.rotate.y = easeInOut(ticker, 5) * TAU
+      ticker += delta / 6000
+      ticker %= 1
     }}
   >
     <Group>
