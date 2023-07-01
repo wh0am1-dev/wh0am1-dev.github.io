@@ -19,11 +19,13 @@
 />
 
 <h1 class="relative my-8">
-  {#each [...$i18n.home.wave] as character, index}
-    <span class="rotate" style="animation-delay: {index * 0.2}s">
-      {character}
-    </span>
-  {/each}
+  {#key $i18n.home.wave}
+    {#each [...$i18n.home.wave] as character, index}
+      <span class="rotate" style="animation-delay: {index * 0.2}s">
+        {character}
+      </span>
+    {/each}
+  {/key}
 </h1>
 
 <p class="max-w-2xl px-4 text-center">
