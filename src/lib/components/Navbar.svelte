@@ -29,12 +29,12 @@
 
 <style lang="postcss">
   nav {
-    @apply sticky top-0 z-50 w-full shadow-md;
+    @apply sticky top-0 z-50 w-full;
     @apply flex items-center justify-between;
-    @apply bg-stone-100 bg-opacity-50 backdrop-blur-md;
-    @apply border-b border-stone-400;
-    @apply dark:border-stone-700 dark:bg-stone-800 dark:bg-opacity-50;
-    @apply dark:shadow-stone-900;
+    @apply bg-stone-100 dark:bg-stone-800;
+    @apply bg-opacity-25 backdrop-blur-lg dark:bg-opacity-25;
+    @apply border-b border-stone-400 dark:border-stone-700;
+    @apply shadow-sm shadow-stone-400 dark:shadow-stone-950;
   }
 
   li {
