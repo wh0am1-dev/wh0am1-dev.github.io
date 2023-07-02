@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1" width="540px" height="540px" style="fill: none; width: 540px; height: 540px;"><path d="M30,30 L30,30 L510,30 L510,510 L30,510 L30,30 " style="stroke-width: 59; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(17, 17, 17); fill: rgb(17, 17, 17);"/><path d="" style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(170, 170, 170); fill: none;"/><path d="M270,60 A210,210 0 0,0 60,270 A210,210 0 0,0 270,480 M270,60 L270,60 L480,60 L480,60 L480,480 M270,60 L270,60 L270,480 M270,270 L270,270 L480,270 " style="stroke-width: 35; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(251, 191, 36); fill: none;"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1" width="540px"
+  height="540px" style="fill: none; width: 540px; height: 540px;">
+  <path d="M30,30 L30,30 L510,30 L510,510 L30,510 L30,30 "
+    style="stroke-width: 59; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(17, 17, 17); fill: rgb(17, 17, 17);" />
+  <path d=""
+    style="stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(170, 170, 170); fill: none;" />
+  <path
+    d="M270,60 A210,210 0 0,0 60,270 A210,210 0 0,0 270,480 M270,60 L270,60 L480,60 L480,60 L480,480 M270,60 L270,60 L270,480 M270,270 L270,270 L480,270 "
+    style="stroke-width: 35; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(251, 191, 36); fill: none;" />
+</svg>
