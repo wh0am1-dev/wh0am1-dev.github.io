@@ -10,6 +10,7 @@
 
 <style lang="postcss">
   section {
+    @apply flex flex-col items-start justify-between gap-2 xl:gap-4;
     @apply h-full rounded-md p-4 transition-all md:p-8;
     @apply shadow-sm shadow-stone-400 dark:shadow-stone-950;
     @apply border border-stone-400 dark:border-stone-700;

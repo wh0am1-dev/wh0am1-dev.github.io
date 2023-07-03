@@ -14,6 +14,12 @@
 
 <ul>
   <li>
+    <i><Icon src={Briefcase} theme="solid" /></i>
+    <a href={$i18n.cv.jobs[0].link} target="_blank" rel="noopener noreferrer">
+      {$i18n.cv.jobs[0].company}
+    </a>
+  </li>
+  <li>
     <i><Icon src={Github} theme="solid" /></i>
     <a
       href={`https://github.com/${$i18n.home.github}`}
@@ -21,31 +27,6 @@
       rel="noopener noreferrer"
     >
       @{$i18n.home.github}
-    </a>
-  </li>
-  <li>
-    <i><Icon src={Linkedin} theme="solid" /></i>
-    <a
-      href={`https://linkedin.com/in/${$i18n.home.linkedin}`}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      @{$i18n.home.linkedin}
-    </a>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <i><Icon src={Briefcase} theme="solid" /></i>
-    <a href={$i18n.cv.jobs[0].link} target="_blank" rel="noopener noreferrer">
-      {$i18n.cv.jobs[0].company}
-    </a>
-  </li>
-  <li>
-    <i><Icon src={AcademicCap} theme="solid" /></i>
-    <a href={$i18n.home.academy} target="_blank" rel="noopener noreferrer">
-      {$i18n.home.education}
     </a>
   </li>
 </ul>
@@ -71,7 +52,7 @@
       @{$i18n.home.telegram}
     </a>
   </li>
-  <li>
+  <!-- <li>
     <i><T2 class="w-8 fill-amber-500 p-1 dark:fill-amber-400" /></i>
     <a
       href="https://t2.social/{$i18n.home.t2}"
@@ -79,6 +60,25 @@
       rel="noopener noreferrer"
     >
       @{$i18n.home.t2}
+    </a>
+  </li> -->
+</ul>
+
+<ul>
+  <li>
+    <i><Icon src={Linkedin} theme="solid" /></i>
+    <a
+      href={`https://linkedin.com/in/${$i18n.home.linkedin}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      @{$i18n.home.linkedin}
+    </a>
+  </li>
+  <li>
+    <i><Icon src={AcademicCap} theme="solid" /></i>
+    <a href={$i18n.home.academy} target="_blank" rel="noopener noreferrer">
+      {$i18n.home.education}
     </a>
   </li>
 </ul>
