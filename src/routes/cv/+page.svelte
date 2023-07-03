@@ -14,7 +14,7 @@
 
 <div class="mt-16 flex flex-wrap items-stretch">
   {#each $i18n.cv.jobs as job}
-    <div class="basis-full p-4 xl:basis-1/2">
+    <div class="basis-full p-4 lg:basis-1/2">
       <Job {job} />
     </div>
   {/each}

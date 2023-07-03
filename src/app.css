@@ -34,37 +34,37 @@
   h1,
   h1 span {
     @apply font-black;
-    @apply text-6xl md:text-7xl xl:text-8xl;
+    @apply text-5xl md:text-7xl xl:text-8xl;
   }
 
   h2,
   h2 span {
     @apply font-extrabold;
-    @apply text-5xl md:text-6xl xl:text-7xl;
+    @apply text-4xl md:text-6xl xl:text-7xl;
   }
 
   h3,
   h3 span {
     @apply font-bold;
-    @apply text-4xl md:text-5xl xl:text-6xl;
+    @apply text-3xl md:text-5xl xl:text-6xl;
   }
 
   h4,
   h4 span {
     @apply font-semibold;
-    @apply text-3xl md:text-4xl xl:text-5xl;
+    @apply text-2xl md:text-4xl xl:text-5xl;
   }
 
   h5,
   h5 span {
     @apply font-medium;
-    @apply text-2xl md:text-3xl xl:text-4xl;
+    @apply text-xl md:text-3xl xl:text-4xl;
   }
 
   h6,
   h6 span {
     @apply font-medium;
-    @apply text-xl md:text-2xl xl:text-3xl;
+    @apply text-lg md:text-2xl xl:text-3xl;
   }
 
   a,
