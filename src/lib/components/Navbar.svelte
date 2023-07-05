@@ -21,7 +21,7 @@
     </li>
     <li>
       <button on:click={() => ($theme = $theme === 'dark' ? 'light' : 'dark')}>
-        {#if $theme === 'light'}⚫{:else}⚪{/if}
+        {#if $theme === 'light'}☀{:else}🌙{/if}
       </button>
     </li>
   </ul>
@@ -43,8 +43,7 @@
 
   a,
   button {
-    @apply table-cell;
-    @apply p-3 text-2xl;
+    @apply table-cell p-3 text-2xl text-amber-500;
     @apply md:p-6 md:text-5xl;
   }
 
