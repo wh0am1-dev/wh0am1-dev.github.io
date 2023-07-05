@@ -27,7 +27,7 @@
     <p class="text-stone-500 dark:text-stone-400">
       {workshop.where}
     </p>
-    <p class="leading-none text-stone-500 dark:text-stone-400">
+    <p class="mt-1 leading-none text-stone-500 dark:text-stone-400">
       {@html workshop.description}
     </p>
   </div>

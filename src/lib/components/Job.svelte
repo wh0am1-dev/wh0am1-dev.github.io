@@ -29,12 +29,12 @@
     <p class="text-stone-500 dark:text-stone-400">
       {job.from} - {job.to}
     </p>
-    <p class="mt-1 text-stone-500 dark:text-stone-400">
+    <p class="mt-1 leading-none text-stone-500 dark:text-stone-400">
       {@html job.description}
     </p>
   </div>
 
-  <div class="flex flex-wrap gap-2">
+  <div class="mt-4 flex flex-wrap gap-2">
     {#each job.tech as tech}
       <span
         class="rounded-full border border-stone-300 px-3 py-0.5 text-stone-800 dark:border-stone-700 dark:text-stone-100"
