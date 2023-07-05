@@ -43,7 +43,7 @@
 
   a,
   button {
-    @apply table-cell p-3 text-2xl text-amber-500;
+    @apply table-cell p-3 text-2xl;
     @apply md:p-6 md:text-5xl;
   }
 
