@@ -76,7 +76,37 @@
         "from": "feb 2018",
         "to": "ene 2019"
       }
-    ]
+    ],
+    "workshops": {
+      "title": "workshops",
+      "description": "talleres que he impartido",
+      "list": [
+        {
+          "title": "PICO-8",
+          "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+          "description": "desarrollo de un physics brawler PvP con <a href=\"https://pico-8.com\" target=\"_blank\" rel=\"noopener noreferrer\">PICO-8</a>",
+          "when": "hackersweek 2017",
+          "where": "etsi informática, uma",
+          "link": "/files/workshops/PICO-8-workshop.zip"
+        },
+        {
+          "title": "road to gamedev",
+          "img": "https://cdn-icons-png.flaticon.com/512/5969/5969347.png",
+          "description": "desarrollo de un infinite side-scroller con el motor unity",
+          "when": "hackersweek 2016",
+          "where": "etsi informática, uma",
+          "link": "/files/workshops/unity-workshop.zip"
+        },
+        {
+          "title": "taller de gamemaker",
+          "img": "https://coal.gamemaker.io/sites/5d75794b3c84c70006700381/theme/images/favicon/apple-touch-icon.png",
+          "description": "desarrollo de un platformer 2D con gamemaker: studio",
+          "when": "semana cultural de teleco 2015",
+          "where": "etsi telecomunicaciones, uma",
+          "link": "/files/workshops/gms-workshop.zip"
+        }
+      ]
+    }
   },
   "oss": {
     "title": "open-source",
@@ -86,7 +116,7 @@
         "title": "svelte-zdog",
         "link": "https://carlos-aguilar.com/svelte-zdog",
         "img": "https://raw.githubusercontent.com/wh0am1-dev/svelte-zdog/main/static/og.png",
-        "description": "componentes de svelte para hacer renders pseudo-3D con zdog<br>🥈 2<sup>a</sup> mejor lib @ <a href=\"https://hack.sveltesociety.dev/winners\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"px-1\">sveltehack 2023</a>",
+        "description": "componentes de svelte para hacer renders pseudo-3D con zdog<br>🥈 2<sup>a</sup> mejor lib @ <a href=\"https://hack.sveltesociety.dev/winners\" target=\"_blank\" rel=\"noopener noreferrer\">sveltehack 2023</a>",
         "from": "mar 2023",
         "to": "presente",
         "tech": ["svelte", "tailwindcss", "typescript", "npm package"]
@@ -137,19 +167,19 @@
         "tech": ["choo", "tachyons", "javascript", "scaffolding"]
       },
       {
-        "title": "sublime-pico-8",
+        "title": "sublime-PICO-8",
         "link": "https://packagecontrol.io/packages/PICO-8",
         "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
-        "description": "plugin de pico-8 para el editor sublime text 3",
+        "description": "plugin de PICO-8 para el editor sublime text 3",
         "from": "jun 2016",
         "to": "sep 2019",
         "tech": ["python", "sublime text", "plugin", "syntax", "intellisense"]
       },
       {
-        "title": "pico-8 api",
+        "title": "PICO-8 api",
         "link": "https://carlos-aguilar.com/pico8-api",
         "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
-        "description": "documentación no oficial de la api de pico-8",
+        "description": "documentación no oficial de la api de PICO-8",
         "from": "jul 2016",
         "to": "jun 2019",
         "tech": ["jquery", "bootstrap", "javascript", "documentation"]
