@@ -1,8 +1,13 @@
 <script lang="ts">
   export let href: string
+  export let newTab = false
 </script>
 
-<a {href} target="_blank" rel="noopener noreferrer">
+<a
+  {href}
+  target={newTab ? '_blank' : '_self'}
+  rel={newTab ? 'noopener noreferrer' : ''}
+>
   <section>
     <slot />
   </section>
