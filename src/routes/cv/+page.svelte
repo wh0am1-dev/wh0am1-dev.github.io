@@ -22,13 +22,13 @@
 
 <hr />
 
-<h1>{$i18n.cv.workshops.title}</h1>
+<h1>{$i18n.workshops.title}</h1>
 <h5 class="text-center">
-  {$i18n.cv.workshops.description}
+  {$i18n.workshops.description}
 </h5>
 
 <div class="mt-16 flex flex-wrap items-stretch">
-  {#each $i18n.cv.workshops.list as workshop}
+  {#each $i18n.workshops.list as workshop}
     <div class="basis-full p-4 lg:basis-1/2">
       <Workshop {workshop} />
     </div>
