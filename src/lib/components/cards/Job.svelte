@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Card } from '$lib/components'
+  import Card from './Card.svelte'
 
   export let job: {
     logo: string
@@ -13,7 +13,7 @@
   }
 </script>
 
-<Card href={job.link}>
+<Card href={job.link} newTab>
   <div class="flex flex-col gap-2 xl:gap-4">
     <img
       src={job.logo}

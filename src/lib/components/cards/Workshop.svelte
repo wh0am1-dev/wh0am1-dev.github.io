@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Card } from '$lib/components'
+  import Card from './Card.svelte'
 
   export let workshop: {
     title: string

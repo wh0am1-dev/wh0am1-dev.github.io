@@ -29,7 +29,7 @@
       {
         "company": "accedo.tv",
         "link": "https://accedo.tv",
-        "logo": "/img/work/accedo.jpg",
+        "logo": "/img/cv/accedo.jpg",
         "position": "senior software engineer",
         "description": "front-end web dev lead @ Universal+<br>front-end web dev @ itv.com",
         "tech": ["react", "nextjs", "node", "typescript", "tailwindcss"],
@@ -39,7 +39,7 @@
       {
         "company": "JLL/T",
         "link": "https://www.jllt.com",
-        "logo": "/img/work/jll.jpg",
+        "logo": "/img/cv/jll.jpg",
         "position": "senior software engineer",
         "description": "front-end web dev @ property.jll.com",
         "tech": ["nextjs", "node", "typescript", "sass", "azure"],
@@ -49,7 +49,7 @@
       {
         "company": "Ciklum",
         "link": "https://www.ciklum.com",
-        "logo": "/img/work/ciklum.jpg",
+        "logo": "/img/cv/ciklum.jpg",
         "position": "middle software engineer",
         "description": "front-end web dev @ property.jll.co.uk",
         "tech": ["nextjs", "node", "typescript", "sass", "azure"],
@@ -59,7 +59,7 @@
       {
         "company": "Verisk",
         "link": "https://www.verisksequel.com",
-        "logo": "/img/work/verisk.jpg",
+        "logo": "/img/cv/verisk.jpg",
         "position": "junior software engineer",
         "description": "full-stack web dev @ sequel origin & impact",
         "tech": ["react", "angular", "node", "c#", ".netcore"],
@@ -69,44 +69,44 @@
       {
         "company": "Athento",
         "link": "https://www.athento.com",
-        "logo": "/img/work/athento.jpg",
+        "logo": "/img/cv/athento.jpg",
         "position": "software engineer intern",
         "description": "full-stack web & mobile dev",
         "tech": ["python", "django", "javascript", "angular", "ionic"],
         "from": "feb 2018",
         "to": "jan 2019"
       }
-    ],
-    "workshops": {
-      "title": "workshops",
-      "description": "workshops I've imparted",
-      "list": [
-        {
-          "title": "PICO-8",
-          "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
-          "description": "develop a PvP physics brawler with <a href=\"https://pico-8.com\" target=\"_blank\" rel=\"noopener noreferrer\">PICO-8</a>",
-          "when": "hackersweek 2017",
-          "where": "etsi informática, uma",
-          "link": "/files/workshops/PICO-8-workshop.zip"
-        },
-        {
-          "title": "road to gamedev",
-          "img": "https://cdn-icons-png.flaticon.com/512/5969/5969347.png",
-          "description": "develop an infinite side-scroller with unity engine",
-          "when": "hackersweek 2016",
-          "where": "etsi informática, uma",
-          "link": "/files/workshops/unity-workshop.zip"
-        },
-        {
-          "title": "gamemaker",
-          "img": "https://coal.gamemaker.io/sites/5d75794b3c84c70006700381/theme/images/favicon/apple-touch-icon.png",
-          "description": "develop a 2D platformer with gamemaker: studio",
-          "when": "teleco cultural week 2015",
-          "where": "etsi telecomunicaciones, uma",
-          "link": "/files/workshops/gms-workshop.zip"
-        }
-      ]
-    }
+    ]
+  },
+  "workshops": {
+    "title": "workshops",
+    "description": "workshops I've imparted",
+    "list": [
+      {
+        "title": "PICO-8",
+        "img": "/img/cv/PICO-8.png",
+        "description": "develop a PvP physics brawler with <a href=\"https://pico-8.com\" target=\"_blank\" rel=\"noopener noreferrer\">PICO-8</a>",
+        "when": "hackersweek 2017",
+        "where": "etsi informática, uma",
+        "link": "/files/workshops/PICO-8-workshop.zip"
+      },
+      {
+        "title": "road to gamedev",
+        "img": "/img/cv/unity.png",
+        "description": "develop an infinite side-scroller with unity engine",
+        "when": "hackersweek 2016",
+        "where": "etsi informática, uma",
+        "link": "/files/workshops/unity-workshop.zip"
+      },
+      {
+        "title": "gamemaker",
+        "img": "/img/cv/gamemaker.png",
+        "description": "develop a 2D platformer with gamemaker: studio",
+        "when": "teleco cultural week 2015",
+        "where": "etsi telecomunicaciones, uma",
+        "link": "/files/workshops/gamemaker-workshop.zip"
+      }
+    ]
   },
   "oss": {
     "title": "open-source",
@@ -119,7 +119,7 @@
         "description": "svelte components for zdog pseudo-3D renders<br>🥈 2<sup>nd</sup> best lib @ <a href=\"https://hack.sveltesociety.dev/winners\" target=\"_blank\" rel=\"noopener noreferrer\">sveltehack 2023</a>",
         "from": "mar 2023",
         "to": "present",
-        "tech": ["svelte", "tailwindcss", "typescript", "npm package"]
+        "tech": ["svelte", "tailwindcss", "typescript", "npm pkg"]
       },
       {
         "title": "hck.nws",
@@ -128,7 +128,7 @@
         "description": "hacker news client progressive web application made with react",
         "from": "may 2019",
         "to": "present",
-        "tech": ["react", "material-ui", "redux", "open-graph", "typescript"]
+        "tech": ["react", "mui", "redux", "api", "typescript"]
       },
       {
         "title": "qset",
