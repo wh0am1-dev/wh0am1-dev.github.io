@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { lang } from '$lib/i18n'
+  import { lang } from '$lib/stores'
 </script>
 
 <ul>

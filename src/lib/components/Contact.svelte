@@ -8,8 +8,8 @@
     MapPin,
   } from '@steeze-ui/heroicons'
   import { Github, Linkedin, Twitter, Telegram } from '@steeze-ui/remix-icons'
-  import { i18n } from '$lib/i18n'
-  import { T2 } from '$lib/components'
+  import { i18n } from '$lib/stores'
+  // import { T2 } from '$lib/components'
 </script>
 
 <ul>

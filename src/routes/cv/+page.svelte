@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { i18n } from '$lib/i18n'
+  import { i18n } from '$lib/stores'
   import { Job, Workshop } from '$lib/components'
 </script>
 

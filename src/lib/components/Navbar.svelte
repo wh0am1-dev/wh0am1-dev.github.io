@@ -1,7 +1,6 @@
 <script lang="ts">
   import { page } from '$app/stores'
-  import { i18n } from '$lib/i18n'
-  import { theme } from '$lib/stores'
+  import { i18n, theme } from '$lib/stores'
 </script>
 
 <nav>

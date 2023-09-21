@@ -1,7 +1,7 @@
 import { writable, derived } from 'svelte/store'
 import { browser } from '$app/environment'
-import en from '$lib/i18n/en.json'
-import es from '$lib/i18n/es.json'
+import en from './en.json'
+import es from './es.json'
 
 export const lang = writable(
   (() => {
