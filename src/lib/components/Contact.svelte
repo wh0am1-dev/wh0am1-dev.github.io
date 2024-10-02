@@ -3,7 +3,6 @@
   import {
     AcademicCap,
     Briefcase,
-    Phone,
     Envelope,
     MapPin,
   } from '@steeze-ui/heroicons'
@@ -79,15 +78,6 @@
       {$i18n.home.email}
     </a>
   </li>
-  <li>
-    <i><Icon src={Phone} theme="solid" /></i>
-    <a href={`tel:${$i18n.home.phone.replaceAll(' ', '')}`}>
-      {$i18n.home.phone}
-    </a>
-  </li>
-</ul>
-
-<ul>
   <li>
     <i><Icon src={MapPin} theme="solid" /></i>
     <a href={$i18n.home.map} target="_blank" rel="noopener noreferrer">
