@@ -9,4 +9,3 @@ export { default as Workshop } from './cards/Workshop.svelte'
 
 export { default as Atom } from './svg/Atom.svelte'
 export { default as MNML } from './svg/MNML.svelte'
-export { default as T2 } from './svg/T2.svelte'

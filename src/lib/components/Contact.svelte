@@ -9,7 +9,6 @@
   } from '@steeze-ui/heroicons'
   import { Github, Linkedin, Twitter, Telegram } from '@steeze-ui/remix-icons'
   import { i18n } from '$lib/stores'
-  // import { T2 } from '$lib/components'
 </script>
 
 <ul>
@@ -52,16 +51,6 @@
       @{$i18n.home.telegram}
     </a>
   </li>
-  <!-- <li>
-    <i><T2 class="w-8 fill-amber-500 p-1 dark:fill-amber-400" /></i>
-    <a
-      href="https://t2.social/{$i18n.home.t2}"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      @{$i18n.home.t2}
-    </a>
-  </li> -->
 </ul>
 
 <ul>
