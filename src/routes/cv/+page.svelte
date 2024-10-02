@@ -14,9 +14,11 @@
 
 <div class="mt-16 flex flex-wrap items-stretch">
   {#each $i18n.cv.jobs as job}
-    <div class="basis-full p-4 lg:basis-1/2">
-      <Job {job} />
-    </div>
+    {#if job.public}
+      <div class="basis-full p-4 lg:basis-1/2">
+        <Job {job} />
+      </div>
+    {/if}
   {/each}
 </div>
 
@@ -29,8 +31,10 @@
 
 <div class="mt-16 flex flex-wrap items-stretch">
   {#each $i18n.workshops.list as workshop}
-    <div class="basis-full p-4 lg:basis-1/2">
-      <Workshop {workshop} />
-    </div>
+    {#if workshop.public}
+      <div class="basis-full p-4 lg:basis-1/2">
+        <Workshop {workshop} />
+      </div>
+    {/if}
   {/each}
 </div>

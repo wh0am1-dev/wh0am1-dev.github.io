@@ -14,8 +14,10 @@
 
 <div class="mt-16 flex flex-wrap items-stretch">
   {#each $i18n.oss.projects as project}
-    <div class="basis-full p-4 lg:basis-1/2">
-      <Project {project} />
-    </div>
+    {#if project.public}
+      <div class="basis-full p-4 lg:basis-1/2">
+        <Project {project} />
+      </div>
+    {/if}
   {/each}
 </div>
