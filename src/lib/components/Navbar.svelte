@@ -43,18 +43,13 @@
   a,
   button {
     @apply table-cell p-3 text-2xl;
-    @apply md:p-6 md:text-5xl;
+    @apply md:p-5 md:text-4xl;
+    @apply xl:p-6 xl:text-5xl;
   }
 
   a.selected {
     @apply bg-amber-500 text-stone-800;
     @apply dark:bg-amber-400;
-  }
-
-  button {
-    @apply table-cell;
-    @apply p-3 text-2xl;
-    @apply md:p-6 md:text-5xl;
   }
 
   @media (hover: hover) {
