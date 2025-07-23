@@ -1,6 +1,6 @@
 {
   "name": "wh0am1-dev.github.io",
-  "version": "241002.0",
+  "version": "241209.0",
   "author": {
     "name": "Carlos Aguilar",
     "email": "hey@carlos-aguilar.com",
@@ -9,7 +9,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite dev --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "husky install",

@@ -122,7 +122,7 @@
         "title": "svelte-zdog",
         "link": "https://carlos-aguilar.com/svelte-zdog",
         "img": "https://raw.githubusercontent.com/wh0am1-dev/svelte-zdog/main/static/og.png",
-        "description": "componentes de svelte para hacer renders pseudo-3D con zdog<br>🥈 2<sup>a</sup> mejor lib @ <a href=\"https://hack.sveltesociety.dev/winners\" target=\"_blank\" rel=\"noopener noreferrer\">sveltehack 2023</a>",
+        "description": "componentes de svelte para hacer renders pseudo-3D con zdog<br>🥈 2<sup>a</sup> mejor lib @ <a href=\"https://hack.sveltesociety.dev/2023/winners\" target=\"_blank\" rel=\"noopener noreferrer\">sveltehack 2023</a>",
         "tech": ["svelte", "tailwindcss", "typescript", "npm pkg"],
         "from": "mar 2023",
         "to": "presente",
