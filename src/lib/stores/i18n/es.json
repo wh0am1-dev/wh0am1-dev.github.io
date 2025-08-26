@@ -121,9 +121,12 @@
       {
         "title": "svelte-zdog",
         "link": "https://carlos-aguilar.com/svelte-zdog",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/svelte-zdog/main/static/og.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/svelte-zdog/main/static/og.png",
+          "pixelated": false
+        },
         "description": "componentes svelte para renders pseudo-3D de zdog<br>🥈 2<sup>a</sup> mejor lib @ <a href=\"https://hack.sveltesociety.dev/2023/winners\" target=\"_blank\" rel=\"noopener noreferrer\">sveltehack 2023</a>",
-        "tech": ["svelte", "tailwindcss", "typescript", "npm pkg"],
+        "tech": ["svelte", "tailwindcss", "typescript", "npm"],
         "from": "mar 2023",
         "to": "presente",
         "public": true
@@ -131,7 +134,10 @@
       {
         "title": "hck.nws",
         "link": "https://carlos-aguilar.com/hck.nws",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/hck.nws/master/src/img/hck.nws.512.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/hck.nws/master/src/img/hck.nws.512.png",
+          "pixelated": false
+        },
         "description": "cliente de hacker news en una aplicación web progresiva hecha con react",
         "tech": ["react", "mui", "redux", "api", "typescript"],
         "from": "may 2019",
@@ -141,7 +147,10 @@
       {
         "title": "qset",
         "link": "https://carlos-aguilar.com/qset",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/qset/gh-pages/img/qset-white.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/qset/gh-pages/img/qset-white.png",
+          "pixelated": false
+        },
         "description": "el conjunto cuántico, una colección de extractos de científicos, filósofos, teólogos, etc",
         "tech": ["jquery", "tachyons", "javascript", "keyboard"],
         "from": "mar 2018",
@@ -151,7 +160,10 @@
       {
         "title": "aisthesis",
         "link": "https://github.com/wh0am1-dev/aisthesis",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/aisthesis/master/img/bacchus.jpg",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/aisthesis/master/img/bacchus.jpg",
+          "pixelated": false
+        },
         "description": "/αἴσθησις/ colección de snippets de livecoding, código de algorave, investigaciones, colaboraciones, recursos, etc",
         "tech": ["python", "ruby", "glsl", "supercollider", "algorave"],
         "from": "jun 2018",
@@ -161,7 +173,10 @@
       {
         "title": "types&synths",
         "link": "https://typesandsynths.art",
-        "img": "https://raw.githubusercontent.com/typesandsynths/typesandsynths.github.io/master/src/static/icon.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/typesandsynths/typesandsynths.github.io/master/src/static/icon.png",
+          "pixelated": false
+        },
         "description": "experimentos interactivos con tipografías y síntesis de audio",
         "tech": ["react", "tailwindcss", "processing", "parcel", "typescript"],
         "from": "feb 2022",
@@ -169,9 +184,25 @@
         "public": false
       },
       {
+        "title": "shiaiboard",
+        "link": "https://carlos-aguilar.com/shiaiboard",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/shiaiboard/refs/heads/master/assets/img/shiai.png",
+          "pixelated": false
+        },
+        "description": "marcador de combate de aikido tomiki usado en el mundial de málaga de 2019, hecho con choo y tachyons",
+        "tech": ["choo", "tachyons", "javascript", "mundiales"],
+        "from": "may 2019",
+        "to": "ago 2025",
+        "public": true
+      },
+      {
         "title": "choof",
         "link": "https://github.com/wh0am1-dev/choof",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/choof/master/assets/choof.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/choof/master/assets/choof.png",
+          "pixelated": false
+        },
         "description": "plantilla para proyectos de choo",
         "tech": ["choo", "tachyons", "javascript", "scaffolding"],
         "from": "dic 2018",
@@ -181,9 +212,12 @@
       {
         "title": "sublime-PICO-8",
         "link": "https://packagecontrol.io/packages/PICO-8",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+          "pixelated": false
+        },
         "description": "plugin de PICO-8 para el editor sublime text 3",
-        "tech": ["python", "sublime text", "plugin", "syntax", "intellisense"],
+        "tech": ["python", "sublime text", "plugin", "intellisense"],
         "from": "jun 2016",
         "to": "sep 2019",
         "public": true
@@ -191,9 +225,12 @@
       {
         "title": "PICO-8 api",
         "link": "https://carlos-aguilar.com/pico8-api",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+          "pixelated": false
+        },
         "description": "documentación no oficial de la api de PICO-8",
-        "tech": ["jquery", "bootstrap", "javascript", "documentation"],
+        "tech": ["jquery", "bootstrap", "javascript", "documentación"],
         "from": "jul 2016",
         "to": "jun 2019",
         "public": true
@@ -201,23 +238,36 @@
       {
         "title": "rlspain",
         "link": "https://carlos-aguilar.com/rlspain",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/rlspain/master/assets/img/rlspain.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/rlspain/master/assets/img/rlspain.png",
+          "pixelated": false
+        },
         "description": "marcador de rocket league español en una aplicación web progresiva, hecho con choo y tachyons",
-        "tech": [
-          "choo",
-          "tachyons",
-          "javascript",
-          "web crawling",
-          "leaderboard"
-        ],
+        "tech": ["choo", "tachyons", "javascript", "web crawling"],
         "from": "ago 2018",
         "to": "mar 2021",
         "public": true
       },
       {
+        "title": "stargazers",
+        "link": "https://github.com/wh0am1-dev/stargazers",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/stargazers/refs/heads/master/gfx/player/player3.png",
+          "pixelated": true
+        },
+        "description": "minijuego de fiesta multijugador local",
+        "tech": ["lua", "love2D", "native", "game design", "multiplayer"],
+        "from": "feb 2016",
+        "to": "feb 2016",
+        "public": true
+      },
+      {
         "title": "mind-spun",
         "link": "https://github.com/wh0am1-dev/mind-spun",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/mind-spun/master/assets/img/icon.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/mind-spun/refs/heads/master/assets_raw/corp_img/icons/png/256x256.png",
+          "pixelated": false
+        },
         "description": "videojuego de puzzles en el que hay que ordenar fichas de colores enredadas",
         "tech": ["lua", "love2D", "native", "game design", "puzzle"],
         "from": "ago 2015",
@@ -227,7 +277,10 @@
       {
         "title": "gravitron",
         "link": "https://github.com/wh0am1-dev/gravitron",
-        "img": "https://raw.githubusercontent.com/wh0am1-dev/Gravitron/master/assets/img/p.png",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/Gravitron/master/assets/img/p.png",
+          "pixelated": true
+        },
         "description": "videojuego de puzzles en el que hey que llegar a la nave sin gravedad",
         "tech": ["phaser", "javascript", "game design", "puzzle"],
         "from": "dic 2014",

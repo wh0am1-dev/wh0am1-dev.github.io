@@ -3,12 +3,15 @@
   import { ownLink } from '$lib/utils'
 
   export let project: {
+    img: {
+      src: string
+      pixelated: boolean
+    }
     title: string
     link: string
-    img: string
-    description: string
     from: string
     to: string
+    description: string
     tech: string[]
   }
 </script>
@@ -16,9 +19,10 @@
 <Card href={project.link} newTab={!ownLink(project.link)}>
   <div class="flex flex-col gap-2 xl:gap-4">
     <img
-      src={project.img}
+      src={project.img.src}
       alt={project.title}
-      class="aspect-square w-16 rounded-md bg-stone-900 object-cover md:w-24 xl:w-32"
+      class="aspect-square w-16 rounded-md bg-stone-900 object-cover object-top md:w-24 xl:w-32"
+      style={project.img.pixelated ? 'image-rendering: pixelated;' : ''}
     />
     <h3 class="text-stone-800 dark:text-stone-100">
       {project.title}

@@ -1,13 +1,28 @@
 <script lang="ts">
+  import { fade } from 'svelte/transition'
   import { i18n } from '$lib/stores'
   import { Contact } from '$lib/components'
+
+  const images = ['/img/ego.png', '/img/clippy.png']
+  let current = 0
+
+  const nextImage = () => (current = (current + 1) % images.length)
+  $: image = images[current]
 </script>
 
 <svelte:head>
   <title>carlos aguilar</title>
 </svelte:head>
 
-<img alt="ego" src="/img/ego.png" />
+{#key image}
+  <img
+    alt="ego"
+    src={image}
+    on:click={nextImage}
+    on:keypress={nextImage}
+    in:fade={{ duration: 200 }}
+  />
+{/key}
 
 <h1 class="relative my-8">
   {#key $i18n.home.wave}
