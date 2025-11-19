@@ -116,8 +116,34 @@
   },
   "oss": {
     "title": "open-source",
-    "description": "proyectos personales",
+    "description": "software libre y proyectos personales",
     "projects": [
+      {
+        "title": "replicube",
+        "link": "https://github.com/wh0am1-dev/replicube",
+        "img": {
+          "src": "https://github.com/wh0am1-dev/replicube/blob/main/src/001-intro-challenges-1/004-checkerboard/preview.gif?raw=true",
+          "pixelated": false
+        },
+        "description": "mis soluciones a los puzzles de replicube<br><a href=\"https://s.team/a/3401490\" target=\"_blank\" rel=\"noopener noreferrer\">replicube en steam</a>",
+        "tech": ["lua", "codegolf", "puzzle", "game"],
+        "from": "abr 2025",
+        "to": "presente",
+        "public": true
+      },
+      {
+        "title": "umbrel apps",
+        "link": "https://github.com/wh0am1-dev/umbrel-wh0am1-app-store",
+        "img": {
+          "src": "https://github.com/getumbrel/umbrel/blob/master/packages/ui/public/favicon/android-chrome-512x512.png?raw=true",
+          "pixelated": false
+        },
+        "description": "colección de contenedores de servicios para mi home server",
+        "tech": ["docker", "containers", "server", "umbrel"],
+        "from": "oct 2024",
+        "to": "present",
+        "public": true
+      },
       {
         "title": "svelte-zdog",
         "link": "https://carlos-aguilar.com/svelte-zdog",
@@ -126,8 +152,34 @@
           "pixelated": false
         },
         "description": "componentes svelte para renders pseudo-3D de zdog<br>🥈 2<sup>a</sup> mejor lib @ <a href=\"https://hack.sveltesociety.dev/2023/winners\" target=\"_blank\" rel=\"noopener noreferrer\">sveltehack 2023</a>",
-        "tech": ["svelte", "tailwindcss", "typescript", "npm"],
+        "tech": ["typescript", "svelte", "tailwindcss", "npm", "library"],
         "from": "mar 2023",
+        "to": "presente",
+        "public": true
+      },
+      {
+        "title": "react-lrud",
+        "link": "https://github.com/wh0am1-dev/react-lrud",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/react-lrud/refs/heads/master/arrows.png",
+          "pixelated": false
+        },
+        "description": "biblioteca de react para navegación por teclado lrud (left, right, up, down)",
+        "tech": ["javascript", "react", "lrud", "library"],
+        "from": "mar 2023",
+        "to": "mar 2023",
+        "public": true
+      },
+      {
+        "title": "gtfo",
+        "link": "https://github.com/GTFOCrew/gtfo",
+        "img": {
+          "src": "https://raw.githubusercontent.com/GTFOCrew/gtfo/master/src/img/gtfo.png",
+          "pixelated": false
+        },
+        "description": "bot de telegram para la comunidad gtfo crew",
+        "tech": ["javascript", "node", "telegram", "bot"],
+        "from": "dic 2019",
         "to": "presente",
         "public": true
       },
@@ -139,49 +191,10 @@
           "pixelated": false
         },
         "description": "cliente de hacker news en una aplicación web progresiva hecha con react",
-        "tech": ["react", "mui", "redux", "api", "typescript"],
+        "tech": ["typescript", "react", "mui", "redux", "api"],
         "from": "may 2019",
-        "to": "presente",
+        "to": "mar 2023",
         "public": true
-      },
-      {
-        "title": "qset",
-        "link": "https://carlos-aguilar.com/qset",
-        "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/qset/gh-pages/img/qset-white.png",
-          "pixelated": false
-        },
-        "description": "el conjunto cuántico, una colección de extractos de científicos, filósofos, teólogos, etc",
-        "tech": ["jquery", "tachyons", "javascript", "keyboard"],
-        "from": "mar 2018",
-        "to": "abr 2021",
-        "public": true
-      },
-      {
-        "title": "aisthesis",
-        "link": "https://github.com/wh0am1-dev/aisthesis",
-        "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/aisthesis/master/img/bacchus.jpg",
-          "pixelated": false
-        },
-        "description": "/αἴσθησις/ colección de snippets de livecoding, código de algorave, investigaciones, colaboraciones, recursos, etc",
-        "tech": ["python", "ruby", "glsl", "supercollider", "algorave"],
-        "from": "jun 2018",
-        "to": "ene 2019",
-        "public": true
-      },
-      {
-        "title": "types&synths",
-        "link": "https://typesandsynths.art",
-        "img": {
-          "src": "https://raw.githubusercontent.com/typesandsynths/typesandsynths.github.io/master/src/static/icon.png",
-          "pixelated": false
-        },
-        "description": "experimentos interactivos con tipografías y síntesis de audio",
-        "tech": ["react", "tailwindcss", "processing", "parcel", "typescript"],
-        "from": "feb 2022",
-        "to": "presente",
-        "public": false
       },
       {
         "title": "shiaiboard",
@@ -191,7 +204,7 @@
           "pixelated": false
         },
         "description": "marcador de combate de aikido tomiki usado en el mundial de málaga de 2019, hecho con choo y tachyons",
-        "tech": ["choo", "tachyons", "javascript", "mundiales"],
+        "tech": ["javascript", "choo", "tachyons"],
         "from": "may 2019",
         "to": "ago 2025",
         "public": true
@@ -204,16 +217,55 @@
           "pixelated": false
         },
         "description": "plantilla para proyectos de choo",
-        "tech": ["choo", "tachyons", "javascript", "scaffolding"],
+        "tech": ["javascript", "choo", "tachyons", "scaffolding"],
         "from": "dic 2018",
         "to": "ene 2019",
+        "public": true
+      },
+      {
+        "title": "rlspain",
+        "link": "https://carlos-aguilar.com/rlspain",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/rlspain/master/assets/img/rlspain.png",
+          "pixelated": false
+        },
+        "description": "marcador de rocket league español en una aplicación web progresiva, hecho con choo y tachyons",
+        "tech": ["javascript", "choo", "tachyons", "web crawling"],
+        "from": "ago 2018",
+        "to": "mar 2021",
+        "public": true
+      },
+      {
+        "title": "aisthesis",
+        "link": "https://github.com/wh0am1-dev/aisthesis",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/aisthesis/refs/heads/main/src/foxdot/release/digital.trash/digital.trash.png",
+          "pixelated": false
+        },
+        "description": "/αἴσθησις/ colección de snippets de livecoding, código de algorave, investigaciones, colaboraciones, recursos, etc",
+        "tech": ["python", "ruby", "glsl", "supercollider", "algorave"],
+        "from": "jun 2018",
+        "to": "ene 2019",
+        "public": true
+      },
+      {
+        "title": "qset",
+        "link": "https://carlos-aguilar.com/qset",
+        "img": {
+          "src": "https://raw.githubusercontent.com/wh0am1-dev/qset/gh-pages/img/qset-white.png",
+          "pixelated": false
+        },
+        "description": "el conjunto cuántico, una colección de extractos de científicos, filósofos, teólogos, etc",
+        "tech": ["javascript", "jquery", "tachyons", "keyboard"],
+        "from": "mar 2018",
+        "to": "abr 2021",
         "public": true
       },
       {
         "title": "sublime-PICO-8",
         "link": "https://packagecontrol.io/packages/PICO-8",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+          "src": "https://www.sublimehq.com/images/sublime_text.png",
           "pixelated": false
         },
         "description": "plugin de PICO-8 para el editor sublime text 3",
@@ -230,22 +282,9 @@
           "pixelated": false
         },
         "description": "documentación no oficial de la api de PICO-8",
-        "tech": ["jquery", "bootstrap", "javascript", "documentación"],
+        "tech": ["javascript", "jquery", "bootstrap", "docs"],
         "from": "jul 2016",
         "to": "jun 2019",
-        "public": true
-      },
-      {
-        "title": "rlspain",
-        "link": "https://carlos-aguilar.com/rlspain",
-        "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/rlspain/master/assets/img/rlspain.png",
-          "pixelated": false
-        },
-        "description": "marcador de rocket league español en una aplicación web progresiva, hecho con choo y tachyons",
-        "tech": ["choo", "tachyons", "javascript", "web crawling"],
-        "from": "ago 2018",
-        "to": "mar 2021",
         "public": true
       },
       {
@@ -282,10 +321,23 @@
           "pixelated": true
         },
         "description": "videojuego de puzzles en el que hey que llegar a la nave sin gravedad",
-        "tech": ["phaser", "javascript", "game design", "puzzle"],
+        "tech": ["javascript", "phaser", "game design", "puzzle"],
         "from": "dic 2014",
         "to": "ene 2015",
         "public": true
+      },
+      {
+        "title": "types&synths",
+        "link": "https://typesandsynths.art",
+        "img": {
+          "src": "https://raw.githubusercontent.com/typesandsynths/typesandsynths.github.io/master/src/static/icon.png",
+          "pixelated": false
+        },
+        "description": "experimentos interactivos con tipografías y síntesis de audio",
+        "tech": ["typescript", "react", "tailwindcss", "processing", "parcel"],
+        "from": "feb 2022",
+        "to": "presente",
+        "public": false
       }
     ]
   }
