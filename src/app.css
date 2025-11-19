@@ -4,6 +4,7 @@
 
 @layer base {
   body {
+    @apply subpixel-antialiased;
     @apply bg-stone-100 text-stone-800;
     @apply dark:bg-stone-800 dark:text-stone-100;
   }
