@@ -1,6 +1,5 @@
 <script lang="ts">
   import Card from './Card.svelte'
-  import { ownLink } from '$lib/utils'
 
   export let project: {
     img: {
@@ -16,7 +15,7 @@
   }
 </script>
 
-<Card href={project.link} newTab={!ownLink(project.link)}>
+<Card href={project.link} newTab>
   <div class="flex flex-col gap-2 xl:gap-4">
     <img
       src={project.img.src}
