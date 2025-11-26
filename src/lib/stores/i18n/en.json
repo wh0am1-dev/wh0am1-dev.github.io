@@ -289,7 +289,7 @@
       },
       {
         "title": "stargazers",
-        "link": "https://github.com/wh0am1-dev/stargazers",
+        "link": "https://wh0am1-dev.itch.io/stargazers",
         "img": {
           "src": "https://raw.githubusercontent.com/wh0am1-dev/stargazers/refs/heads/master/gfx/player/player3.png",
           "pixelated": true
@@ -301,8 +301,21 @@
         "public": true
       },
       {
+        "title": "indie retro brisca",
+        "link": "https://wh0am1-dev.itch.io/brisca",
+        "img": {
+          "src": "/img/oss/brisca.png",
+          "pixelated": true
+        },
+        "description": "mediterranean trick-taking card game done retro",
+        "tech": ["gml", "gamemaker", "native", "online", "multiplayer"],
+        "from": "jan 2016",
+        "to": "oct 2016",
+        "public": true
+      },
+      {
         "title": "mind-spun",
-        "link": "https://github.com/wh0am1-dev/mind-spun",
+        "link": "https://wh0am1-dev.itch.io/mind-spun",
         "img": {
           "src": "https://raw.githubusercontent.com/wh0am1-dev/mind-spun/refs/heads/master/assets_raw/corp_img/icons/png/256x256.png",
           "pixelated": false
@@ -315,7 +328,7 @@
       },
       {
         "title": "gravitron",
-        "link": "https://github.com/wh0am1-dev/gravitron",
+        "link": "https://wh0am1-dev.itch.io/gravitron",
         "img": {
           "src": "https://raw.githubusercontent.com/wh0am1-dev/Gravitron/master/assets/img/p.png",
           "pixelated": true
