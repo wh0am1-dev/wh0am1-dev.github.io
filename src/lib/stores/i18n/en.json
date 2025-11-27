@@ -123,7 +123,7 @@
         "link": "https://github.com/wh0am1-dev/replicube",
         "img": {
           "src": "/img/oss/replicube.png",
-          "pixelated": false
+          "pixelated": true
         },
         "description": "my solutions for replicube's puzzles<br><a href=\"https://s.team/a/3401490\" target=\"_blank\" rel=\"noopener noreferrer\">replicube on steam</a>",
         "tech": ["lua", "codegolf", "puzzle", "game"],
