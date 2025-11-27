@@ -87,7 +87,7 @@
     "list": [
       {
         "title": "PICO-8",
-        "img": "/img/cv/PICO-8.png",
+        "img": "/img/oss/PICO-8.png",
         "description": "desarrollo de un physics brawler PvP con <a href=\"https://pico-8.com\" target=\"_blank\" rel=\"noopener noreferrer\">PICO-8</a>",
         "when": "hackersweek 2017",
         "where": "etsi informática, uma",
@@ -96,7 +96,7 @@
       },
       {
         "title": "road to gamedev",
-        "img": "/img/cv/unity.png",
+        "img": "/img/oss/unity.png",
         "description": "desarrollo de un infinite side-scroller con el motor unity",
         "when": "hackersweek 2016",
         "where": "etsi informática, uma",
@@ -105,7 +105,7 @@
       },
       {
         "title": "gamemaker",
-        "img": "/img/cv/gamemaker.png",
+        "img": "/img/oss/gamemaker.png",
         "description": "desarrollo de un platformer 2D con gamemaker: studio",
         "when": "semana cultural de teleco 2015",
         "where": "etsi telecomunicaciones, uma",
@@ -122,7 +122,7 @@
         "title": "replicube",
         "link": "https://github.com/wh0am1-dev/replicube",
         "img": {
-          "src": "https://github.com/wh0am1-dev/replicube/blob/main/src/001-intro-challenges-1/004-checkerboard/preview.gif?raw=true",
+          "src": "/img/oss/replicube.png",
           "pixelated": false
         },
         "description": "mis soluciones a los puzzles de replicube<br><a href=\"https://s.team/a/3401490\" target=\"_blank\" rel=\"noopener noreferrer\">replicube en steam</a>",
@@ -135,20 +135,20 @@
         "title": "umbrel apps",
         "link": "https://github.com/wh0am1-dev/umbrel-wh0am1-app-store",
         "img": {
-          "src": "https://github.com/getumbrel/umbrel/blob/master/packages/ui/public/favicon/android-chrome-512x512.png?raw=true",
+          "src": "/img/oss/umbrel.png",
           "pixelated": false
         },
         "description": "colección de contenedores de servicios para mi home server",
         "tech": ["docker", "containers", "server", "umbrel"],
         "from": "oct 2024",
-        "to": "present",
+        "to": "presente",
         "public": true
       },
       {
         "title": "svelte-zdog",
         "link": "https://carlos-aguilar.com/svelte-zdog",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/svelte-zdog/main/static/og.png",
+          "src": "/img/oss/svelte-zdog.png",
           "pixelated": false
         },
         "description": "componentes svelte para renders pseudo-3D de zdog<br>🥈 2<sup>a</sup> mejor lib @ <a href=\"https://hack.sveltesociety.dev/2023/winners\" target=\"_blank\" rel=\"noopener noreferrer\">sveltehack 2023</a>",
@@ -161,7 +161,7 @@
         "title": "react-lrud",
         "link": "https://github.com/wh0am1-dev/react-lrud",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/react-lrud/refs/heads/master/arrows.png",
+          "src": "/img/oss/react-lrud.png",
           "pixelated": false
         },
         "description": "biblioteca de react para navegación por teclado lrud (left, right, up, down)",
@@ -174,7 +174,7 @@
         "title": "gtfo",
         "link": "https://github.com/GTFOCrew/gtfo",
         "img": {
-          "src": "https://raw.githubusercontent.com/GTFOCrew/gtfo/master/src/img/gtfo.png",
+          "src": "/img/oss/gtfo.png",
           "pixelated": false
         },
         "description": "bot de telegram para la comunidad gtfo crew",
@@ -187,7 +187,7 @@
         "title": "hck.nws",
         "link": "https://carlos-aguilar.com/hck.nws",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/hck.nws/master/src/img/hck.nws.512.png",
+          "src": "/img/oss/hck.nws.png",
           "pixelated": false
         },
         "description": "cliente de hacker news en una aplicación web progresiva hecha con react",
@@ -200,7 +200,7 @@
         "title": "shiaiboard",
         "link": "https://carlos-aguilar.com/shiaiboard",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/shiaiboard/refs/heads/master/assets/img/shiai.png",
+          "src": "/img/oss/shiai.png",
           "pixelated": false
         },
         "description": "marcador de combate de aikido tomiki usado en el mundial de málaga de 2019, hecho con choo y tachyons",
@@ -213,7 +213,7 @@
         "title": "choof",
         "link": "https://github.com/wh0am1-dev/choof",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/choof/master/assets/choof.png",
+          "src": "/img/oss/choof.png",
           "pixelated": false
         },
         "description": "plantilla para proyectos de choo",
@@ -226,7 +226,7 @@
         "title": "rlspain",
         "link": "https://carlos-aguilar.com/rlspain",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/rlspain/master/assets/img/rlspain.png",
+          "src": "/img/oss/rlspain.png",
           "pixelated": false
         },
         "description": "marcador de rocket league español en una aplicación web progresiva, hecho con choo y tachyons",
@@ -239,7 +239,7 @@
         "title": "aisthesis",
         "link": "https://github.com/wh0am1-dev/aisthesis",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/aisthesis/refs/heads/main/src/foxdot/release/digital.trash/digital.trash.png",
+          "src": "/img/oss/aisthesis.png",
           "pixelated": false
         },
         "description": "/αἴσθησις/ colección de snippets de livecoding, código de algorave, investigaciones, colaboraciones, recursos, etc",
@@ -252,7 +252,7 @@
         "title": "qset",
         "link": "https://carlos-aguilar.com/qset",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/qset/gh-pages/img/qset-white.png",
+          "src": "/img/oss/qset.png",
           "pixelated": false
         },
         "description": "el conjunto cuántico, una colección de extractos de científicos, filósofos, teólogos, etc",
@@ -265,7 +265,7 @@
         "title": "sublime-PICO-8",
         "link": "https://packagecontrol.io/packages/PICO-8",
         "img": {
-          "src": "https://www.sublimehq.com/images/sublime_text.png",
+          "src": "/img/oss/sublime.png",
           "pixelated": false
         },
         "description": "plugin de PICO-8 para el editor sublime text 3",
@@ -278,7 +278,7 @@
         "title": "PICO-8 api",
         "link": "https://carlos-aguilar.com/pico8-api",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/pico8-api/gh-pages/img/pico8.png",
+          "src": "/img/oss/PICO-8.png",
           "pixelated": false
         },
         "description": "documentación no oficial de la api de PICO-8",
@@ -291,7 +291,7 @@
         "title": "stargazers",
         "link": "https://wh0am1-dev.itch.io/stargazers",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/stargazers/refs/heads/master/gfx/player/player3.png",
+          "src": "/img/oss/stargazers.png",
           "pixelated": true
         },
         "description": "minijuego de fiesta multijugador local",
@@ -317,7 +317,7 @@
         "title": "mind-spun",
         "link": "https://wh0am1-dev.itch.io/mind-spun",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/mind-spun/refs/heads/master/assets_raw/corp_img/icons/png/256x256.png",
+          "src": "/img/oss/mind-spun.png",
           "pixelated": false
         },
         "description": "videojuego de puzzles en el que hay que ordenar fichas de colores enredadas",
@@ -330,7 +330,7 @@
         "title": "gravitron",
         "link": "https://wh0am1-dev.itch.io/gravitron",
         "img": {
-          "src": "https://raw.githubusercontent.com/wh0am1-dev/Gravitron/master/assets/img/p.png",
+          "src": "/img/oss/gravitron.png",
           "pixelated": true
         },
         "description": "videojuego de puzzles en el que hey que llegar a la nave sin gravedad",
