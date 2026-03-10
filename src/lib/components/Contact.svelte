@@ -8,9 +8,12 @@
   } from '@steeze-ui/heroicons'
   import { Github, Linkedin, Twitter, Telegram } from '@steeze-ui/remix-icons'
   import { i18n } from '$lib/stores'
+
+  let className = ''
+  export { className as class }
 </script>
 
-<ul>
+<ul class={className}>
   <li>
     <i><Icon src={Briefcase} theme="solid" /></i>
     <a href={$i18n.cv.jobs[0].link} target="_blank" rel="noopener noreferrer">
@@ -102,7 +105,7 @@
   }
 
   a {
-    @apply px-1 text-stone-800;
+    @apply rounded-sm px-1 text-stone-800;
     @apply dark:text-stone-100 dark:hover:text-stone-800;
   }
 </style>

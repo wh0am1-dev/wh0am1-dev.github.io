@@ -34,11 +34,11 @@
   {/key}
 </h1>
 
-<p class="max-w-2xl px-4 text-center">
+<p class="max-w-2xl px-4 text-center md:mb-16">
   {@html $i18n.home.intro}
 </p>
 
-<hr />
+<hr class="md:hidden" />
 
 <Contact />
 
