@@ -22,9 +22,7 @@
       {workshop.title}
     </h3>
     <p class="text-stone-500 dark:text-stone-400">
-      {workshop.when}
-    </p>
-    <p class="text-stone-500 dark:text-stone-400">
+      {workshop.when}<br />
       {workshop.where}
     </p>
     <p class="mt-1 leading-none text-stone-500 dark:text-stone-400">
