@@ -31,8 +31,8 @@
 
 <style lang="postcss">
   .services {
-    @apply grid w-full grid-cols-1 gap-4;
-    @apply md:grid-cols-2 md:gap-8;
+    @apply grid w-full grid-cols-2 gap-4;
+    @apply md:gap-8;
     @apply lg:w-auto lg:grid-cols-3;
     @apply xl:grid-cols-4;
   }
