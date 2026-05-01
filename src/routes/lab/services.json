@@ -1,0 +1,86 @@
+[
+  {
+    "title": "search",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/searxng/icon.svg",
+    "description": "searxng",
+    "link": "https://search.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "drive",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/file-browser/icon.svg",
+    "description": "file browser",
+    "link": "https://drive.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "photos",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/immich/icon.svg",
+    "description": "immich",
+    "link": "https://photos.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "ai",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/open-webui/icon.svg",
+    "description": "open-webui",
+    "link": "https://ai.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "code",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/code-server/icon.svg",
+    "description": "code-server",
+    "link": "https://code.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "kan",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/kan/icon.svg",
+    "description": "kan.bn",
+    "link": "https://kan.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "md",
+    "img": "https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/codimd/icon.svg",
+    "description": "codimd",
+    "link": "https://md.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "pad",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/dumbpad/icon.svg",
+    "description": "dumbpad",
+    "link": "https://pad.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "home",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/home-assistant/icon.svg",
+    "description": "home-assistant",
+    "link": "https://home.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "share",
+    "img": "https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-erugo/logo.png",
+    "description": "erugo",
+    "link": "https://share.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "vert",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/vert/icon.svg",
+    "description": "vert",
+    "link": "https://vert.wh0am1.com",
+    "public": true
+  },
+  {
+    "title": "tools",
+    "img": "https://getumbrel.github.io/umbrel-apps-gallery/ittools/icon.svg",
+    "description": "it-tools",
+    "link": "https://tools.wh0am1.com",
+    "public": true
+  }
+]
